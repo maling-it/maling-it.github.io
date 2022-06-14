@@ -48,3 +48,26 @@ catur:
         type: Telegram
         icon: "bi-telegram"
         link: "#" 
+tutu:
+    name: tutu
+    fname: Tutu Toto
+    email: '#'
+    web: '#'
+    bio: hanya IT enthusiast
+    img: 'https://github.com/tutu-mit.png'
+    github: tutu-mit
+    twitter: null
+    facebook: null
+    pfs:
+      # -
+      #   type: Twitter
+      #   icon: "bi-twitter"
+      #   link: "#"
+      # -
+      #   type: Facebook
+      #   icon: "bi-facebook-square"
+      #   link: "#"
+      # -
+      #   type: Telegram
+      #   icon: "bi-telegram"
+      #   link: "#" 
