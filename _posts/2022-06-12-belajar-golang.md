@@ -1,6 +1,6 @@
 ---
 title: belajar-golang
-category: language
+category: go
 author: tutu
 tags: belajar opini 
 ---

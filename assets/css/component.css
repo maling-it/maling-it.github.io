@@ -560,7 +560,9 @@ body{
 .cs-database{
   stroke: #7383bf !important;
 }
-
+.cs-go{
+  stroke: #6ad7e5 !important;
+}
 .cr {
 	position: relative;
 
