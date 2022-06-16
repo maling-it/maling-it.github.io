@@ -65,7 +65,7 @@ tutu:
           link: "https://twitter.com/jokebasto"
         -
           type: Facebook
-          icon: "bi-facebook-square"
+          icon: "bi-facebook"
           link: "https://www.facebook.com/hma27net"
         -
           type: Telegram
