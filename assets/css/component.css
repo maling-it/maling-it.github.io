@@ -193,6 +193,12 @@ blockquote p {
 .c-database {
   background-color: #7383bf !important;
 }
+.c-go{
+  background-color: #6ad7e5 !important;
+}
+.c-markdown{
+  background-color: #767878 !important;
+}
 /*another*/
 .logo img{
   height: 7rem !important;
@@ -562,6 +568,9 @@ body{
 }
 .cs-go{
   stroke: #6ad7e5 !important;
+}
+.cs-markdown{
+  stroke: #767878 !important;
 }
 .cr {
 	position: relative;
