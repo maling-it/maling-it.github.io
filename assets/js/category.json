@@ -1,0 +1,12 @@
+---
+layout: none
+permalink: /api/category
+---
+[
+  {% for category in site.categories %}
+    {
+      "name"    : "{{category|first}}",
+      "link"     : "{{site.url}}/{{category|first}}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
