@@ -17,7 +17,7 @@
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('search-results'),
-  json: '{{ '/assets/js/search.json' | relative_url }}',
+  json: '{{ '/api/search.json' | relative_url }}',
   searchResultTemplate: '{{ result_elem | strip_newlines }}',
   noResultsText: '{{ not_found }}',
   templateMiddleware: function(prop, value, template) {
