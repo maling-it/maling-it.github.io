@@ -49,7 +49,7 @@ catur:
         icon: "bi-telegram"
         link: "#" 
 tutu:
-    name: Tutu
+    name: tutu
     fname: Tutu Toto
     email: tutu00000@gmail.com
     web: '#'
