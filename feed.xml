@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://maling-it.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://maling-it.github.io/" rel="alternate" type="text/html" /><updated>2022-06-20T14:30:24+00:00</updated><id>https://maling-it.github.io/feed.xml</id><title type="html">MalingIT</title><subtitle>Website malingIT</subtitle><entry><title type="html">Pengenalan DBMS dan RDBMS</title><link href="https://maling-it.github.io/database/pengenalan-dbms-dan-rdbms/" rel="alternate" type="text/html" title="Pengenalan DBMS dan RDBMS" /><published>2022-06-16T00:00:00+00:00</published><updated>2022-06-16T00:00:00+00:00</updated><id>https://maling-it.github.io/database/pengenalan-dbms-dan-rdbms</id><content type="html" xml:base="https://maling-it.github.io/database/pengenalan-dbms-dan-rdbms/"><![CDATA[<p>Database:
+    Basis data (Database) adalah kumpulan informasi yang di simpan di dalam komputer secara sistematik sehingga dapat diperiksa menggunakan suatu program komputer untuk memperoleh informasi dari basis data tersebut. Database digunakan untuk menyimpan informasi atau data yang terintegrasi dengan baik dalam komputer.</p>
+
+<p>DBMS:
+    DBMS (Database Perangkat Lunak management System) adalah suatu sistem perangkat lunak yang memungkinkan user (pengguna) untuk membuat, memelihara, mengontrol, dan mengakses database secara praktis dan efisien. Dengan DBMS, user akan lebih mudah mengontrol dan manipulasi data yang ada.</p>
+
+<p>RDBMS:
+      RDBMS (Relationship Database Management System) adalah salah satu jenis DBMS yang mendukung adanya relationship atau hubungan antar tabel. Di samping RDBMS, terdapat jenis DBMS lain, misalnya Hierarchy DBMS, Object Oriented DBMS, dsb.</p>
+
+<p>Beberapa software atau perangkat lunak DBMS yang sering digunakan dalam aplikasi program antara lain:</p>
+
+<ul>
+  <li>DB2</li>
+  <li>Microsoft SQL Server</li>
+  <li>Oracle</li>
+  <li>Sybase</li>
+  <li>Interbase</li>
+  <li>Teradata</li>
+  <li>Firebird</li>
+  <li>MySQL</li>
+  <li>PostgreSQL</li>
+</ul>
+
+<p>Beberapa Istilah Database:</p>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Table</code>  Sebuah tabel merupakan kumpulan data (nilai) yang diorganisasikan ke dalam
+baris (record) dan kolom (field). Masing-masing kolom memiliki nama yang
+spesifik dan unik.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Field</code>   Field merupakan kolom dari sebuah table. Field memiliki ukuran type data
+tertentu yang menentukan bagaimana data nantinya tersimpan.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Record</code>
+ Field merupakan sebuah kumpulan nilai yang saling terkait.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Key</code>
+  Key merupakan suatu field yang dapat dijadikan kunci dalam operasi tabel.
+Dalam konsep database, key memiliki banyak jenis diantaranya Primary Key,
+Foreign Key, Composite Key, dll.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">SQL</code>
+ SQL atau Structured Query Language merupakan suatu bahasa (language) yang digunakan untuk mengakses database. SQL sering disebut juga sebagai query.</p>
+  </li>
+</ul>
+
+<h3 id="mysql">MySQL</h3>
+
+<p><img class="img-fluid w-100 shadow-lg rounded mw-full" src="https://raw.githubusercontent.com/Zxce3/Zxce3/main/icons/mysql-logo.svg" alt="https://raw.githubusercontent.com/Zxce3/Zxce3/main/icons/mysql-logo.svg" /></p>
+
+<p>MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL
+(bahasa Inggris: database management system) atau DBMS yang multithread,
+multi-user, dengan sekitar 6 juta instalasi di seluruh dunia. MySQL AB membuat
+MySQL tersedia sebagai perangkat lunak gratis di bawah lisensi GNU General
+Public License (GPL), tetapi mereka juga menjual dibawah lisensi komersial untuk kasus-kasus dimana penggunaannya tidak cocok dengan penggunaan GPL.</p>
+
+<p>Fitur-fitur MySQL antara lain :</p>
+<ul>
+  <li>Relational Database System. Seperti halnya software database lain yang ada di pasaran, MySQL termasuk RDBMS.</li>
+  <li>Arsitektur Client-Server. MySQL memiliki arsitektur client-server dimana server database MySQL terinstal di server. Client MySQL dapat berada di komputer yang sama dengan server, dan dapat juga di komputer lain yang berkomunikasi dengan server melalui jaringan bahkan internet.</li>
+  <li>Mengenal perintah SQL standar. SQL (Structured Query Language) merupakan suatu bahasa standar yang berlaku di hampir semua software database.</li>
+  <li>Mendukung Sub Select. Mulai versi 4.1 MySQL telah mendukung select dalam select (sub select).</li>
+  <li>Mendukung Views. MySQL mendukung views sejak versi 5.0</li>
+  <li>Mendukung replication.</li>
+  <li>Mendukung foreign key.</li>
+</ul>]]></content><author><name>memet</name></author><category term="database" /><category term="database" /><category term="dbms" /><category term="rdbms" /><summary type="html"><![CDATA[Database: Basis data (Database) adalah kumpulan informasi yang di simpan di dalam komputer secara sistematik sehingga dapat diperiksa menggunakan suatu program komputer untuk memperoleh informasi dari basis data tersebut. Database digunakan untuk menyimpan informasi atau data yang terintegrasi dengan baik dalam komputer.]]></summary></entry><entry><title type="html">belajar-golang</title><link href="https://maling-it.github.io/go/belajar-golang/" rel="alternate" type="text/html" title="belajar-golang" /><published>2022-06-12T00:00:00+00:00</published><updated>2022-06-12T00:00:00+00:00</updated><id>https://maling-it.github.io/go/belajar-golang</id><content type="html" xml:base="https://maling-it.github.io/go/belajar-golang/"><![CDATA[<p>Golang adalah bahasa pemrograman yang dibuat oleh google pada tahun 2009. 
+golang sendiri merupakan singkatan dari <code class="language-plaintext highlighter-rouge">go language</code> yang berarti nama sebenernya adalah Go.</p>
+
+<p>untuk bahasa pemrograman, golang sendiri dikalangan para programmer senior merupakan bahasa pemrograman yang relatif sangat muda, karena usianya baru beranjak ke 13 tahun. berbeda dengan bahasa pemrograman lainya seperti <strong>C,C++,java,python</strong> yang merupakan bahasa pemrograman kelahiran tahun 1970 - 2000.</p>
+
+<p>golang merupakan inovasi dari google yang secara definisi merupakan bahasa pemrograman yang memungkinkan untuk diketik secara statis dan menciptakan kode biner pada mesin yang dikompilasi.</p>
+
+<h3 id="mengapa-harus-belajar-golang">MENGAPA HARUS BELAJAR GOLANG?</h3>
+
+<p>Pada umunya setiap bahasa pemrograman memiliki keunggulan dan karakteristik-nya masing-masing. sepertihalnya C dan C++ yang memiliki keunggulan dalam hal skala, keandalan, dan kecepatan. Lalu, ada javascript yang lebih mudah dibaca oleh manusia dan scalable. dan ada juga python yang disukai karena lebih bentuknya sederhana.</p>
+
+<p>begitu juga dengan golang., seperti yang dikatakan di atas bahwasanya golang merupakan bahsasa pemrograman yang di buat oleh tim develepor google yang tujuannya untuk menyempurnakan bahasa pemrograman lainya.</p>
+
+<h3 id="latar-belakang">latar belakang</h3>
+
+<p>latar belakang terbentuknya golang merupakan harapan seorang programmer yang memungkinkan seorang programmer memiliki segala aspek pada setiap bahasa sebelumnya dalam satu sistem. Oleh karena itu golang adalah kecepatan, keandalan, skalabilitas, dan kesederhanaanya untuk dipahami.</p>
+
+<h3 id="sedikit-tutorial">sedikit tutorial</h3>
+
+<h2 id="instalasi">instalasi</h2>
+
+<p>hal petama yang kita harus lakukan dalam proses penginstalan golang yaitu mendownload file go terlebih dahulu</p>
+
+<ul>
+  <li>
+    <p>untuk pwngguna windows bisa download di  <a href="https://go.dev/dl/">https://go.dev/dl/</a> lalu install seperti biasanya</p>
+  </li>
+  <li>
+    <p>sedangkan untuk pengguna linux bisa di install melalui terminal.</p>
+  </li>
+</ul>
+
+<h2 id="go-build--go-run">go build &amp;&amp; go run</h2>
+<p>golang mempunyai compiler khusus yang berada pada saat kita menginstall golang di desktop</p>
+
+<ul>
+  <li>cara menggunakan compiler tersebut terbilang sangat mudah. kita hanya perlu mengetikan 
+ (khusus pengguna terminal)</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">go build <span class="s2">"nama-file"</span>.go</code></pre></figure>
+
+<ul>
+  <li>untuk preview kodingan kita apakah ada bug atau tidak (debug) kita bisa menggunakan</li>
+</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">go run <span class="s2">"nama-file"</span>.go</code></pre></figure>]]></content><author><name>tutu</name></author><category term="go" /><category term="belajar" /><category term="opini" /><summary type="html"><![CDATA[Golang adalah bahasa pemrograman yang dibuat oleh google pada tahun 2009. golang sendiri merupakan singkatan dari go language yang berarti nama sebenernya adalah Go.]]></summary></entry><entry><title type="html">Replikasi Database</title><link href="https://maling-it.github.io/database/replikasi-database/" rel="alternate" type="text/html" title="Replikasi Database" /><published>2022-05-09T00:00:00+00:00</published><updated>2022-05-09T00:00:00+00:00</updated><id>https://maling-it.github.io/database/replikasi-database</id><content type="html" xml:base="https://maling-it.github.io/database/replikasi-database/"><![CDATA[<h2 id="a-konsep-dasar-replikasi">A. Konsep Dasar Replikasi</h2>
+
+<p>Replika adalah hasil replikasi satu relasi data atau fragmen relasi yang dapat disimpan pada lebih dari satu tempat, jumlah replika fragmen relasi tidak harus sama untuk satu relasi. Contoh jika relasi R dijadikan tiga fragmen R1, R2, R3, mungkin R1 tidak dibuat replikanya, tetapi R2 dibuat replika di satu tempat lain dan R3 dibuat replika di semua tempat.</p>
+
+<p>Replikasi database adalah seperangkat teknologi yang digunakan untuk menyalin dan mendistribusikan data dari satu database ke database yang lain. Dan selanjutnya, mensinkronisasikan antar database untuk menjaga konsistensi. Dengan replikasi, data dapat didistribusikan ke lokasi yang berbeda dan pengguna yang jauh melalui LAN, WAN, Dial-up Connection, wireless connections, dan internet. Alasan umum yang mendasari kenapa harus menggunakan replikasi, yaitu:</p>
+
+<ol>
+  <li>Untuk membuat sebuah server basis data  siaga. Jika server utama gagal, maka server siaga dapat mengambil alih tugas server utama.</li>
+  <li>Untuk mengaktifkan backup tanpa harus mematikan server utama.  Setelah terjadi replikasi, backup dilakukan pada slave, bukan pada master. Dengan cara ini, masterdapat dibiarkan untuk melakukan tugasnya tanpa gangguan.</li>
+  <li>Untuk menyimpan data saat ini di beberapa lokasi. Replikasi diperlukan jika beberapa cabang dari suatu organisasi harus bekerja dari salinan terbaru dari basis data yang sama.</li>
+  <li>Untuk menyeimbangkan beban kerja beberapa server. Sehingga memungkinkan untuk membuat replika dari satu basis data pada beberapa server, replikasi dapat membantu meringankan beban kerja dari server basis data tunggal yang kelebihan beban dengan memecah query antara beberapa server, masing-masing berjalan pada perangkat keras terpisah. (Vaswani, 2010).</li>
+</ol>
+
+<p>Pada umumnya replikasi mendukung ketersediaan data setiap waktu dan dimanapun diperlukan. Keuntungan lainnya adalah :</p>
+
+<ol>
+  <li>Memungkinkan beberapa lokasi menyimpan data yang sama. Hal ini sangat berguna pada saat lokasilokasi tersebut membutuhkan data yang sama atau memerlukan server yang terpisah dalam pembuatan aplikasi laporan.</li>
+  <li>Aplikasi transaksi online terpisah dari aplikasi pembacaan seperti proses analisis database secara online, data smarts atau data warehouse.</li>
+  <li>Memungkinkan otonomi yang besar. Pengguna dapat bekerja dengan meng-copy data pada saat tidak terkoneksi kemudian melakukan perubahan untuk dibuat database baru pada saat terkoneksi</li>
+  <li>Data dapat ditampilkan seperti layaknya melihat data tersebut dengan menggunakan aplikasi berbasis Web</li>
+  <li>Meningkatkan kinerja pembacaan</li>
+  <li>Membawa data mendekati lokasi individu atau kelompok pengguna. Hal ini akan membantu mengurangi masalah karena modifikasi data dan pemrosesan query yang dilakukan oleh banyak pengguna karena data dapat didistribusikan melalui jaringan dan data dapat dibagi berdasarkan kebutuhan masing-masing unit atau pengguna.</li>
+  <li>Penggunaan replikasi sebagai bagian dari strategi standby server.
+Menyembunyikan perbedaan-perbedaan antara layanan replicated dan non-replicated</li>
+</ol>
+
+<h2 id="b-tujuan-replikasi">B. Tujuan Replikasi</h2>
+<p>Tujuan replikasi motivasi, yaitu :</p>
+<ul>
+  <li>Meningkatkan availabilitas data</li>
+  <li>Mempercepat evaluasi query jika ada replika fragmen atau satu relasi pada tempat lokal.</li>
+</ul>
+
+<h2 id="c-jenis-jenis-replikasi">C. Jenis-jenis Replikasi</h2>
+
+<p>Ada dua jenis replikasi, yaitu :</p>
+
+<ol>
+  <li>Replika sinkron</li>
+</ol>
+
+<p>Ada dua teknik dasar untuk menjamin transaksi menghasilkan satu hasil dan tidak bergantung pada akses terhadap data atau replika data yang digunakan dalam perhitungan transaksi :</p>
+
+<p>a.Teknik pertama disebut voting.</p>
+
+<p>Transaksi harus menulis mayoritas data dan replikanya dan membaca minimal satu replica yang dianggap paling mutakhir. Contoh jika ada 10 replika data dan 7 replika ditulis oleh transaksi update, maka 4 data lainnya juga harus ditulis. Setiap replika mempunyai nomor versi. Replika dengan nomor versi tertinggi dianggap paling mutakhir. Teknik ini kurang menarik, karena akan terjadi banyak proses baca, padahal proses baca sangat diperlukan pada transaksi berikutnya.</p>
+
+<p>b. Teknik kedua disebut read-any write-all,</p>
+
+<p>artinya untuk proses baca cukup melibatkan satu replika, tetapi ketika proses tulis harus melibatkan semua replika. Proses baca dapat dilakukan dengan cepat apalagi baca data lokal, tetapi proses tulis lebih lama. Teknik ini lebih populer, karena proses baca lebih sering dibutuhkan dibandingkan proses tulis.</p>
+
+<ol>
+  <li>Replika asinkron</li>
+</ol>
+
+<p>Replikasi sinkron memerlukan biaya lebih tinggi dibanding asinkron, karena selama transaksi update belum commit, maka semua replika harus di kunci secara eksklusif.</p>
+
+<p>Untuk teknik read-any write-all, maka jika ada kelambatan atau kegagalan komunikasi, maka transaksi tidak bisa commit karena harus menunggu sampai semua replikasi di tulis, sehingga replikasi sinkron kurang realistis</p>
+
+<p>Sebaliknya replikasi asinkron lebih realistis, walaupun melanggar prinsip independensi data terdistribusi selama interval waktu tertentu sampai dilakukan transaksi update secara berkala. Jadi pengguna harus berhati-hati dan harus dapat mengenali replika yang paling mutakhir.</p>
+
+<p>Tentu saja replikasi asinkron tidak cocok untuk aplikasi yang real time (waktu nyata)</p>
+
+<p>Pada replikasi asinkron terdapat dua pilihan, yaitu :</p>
+
+<ol>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Replikasi asinkron situs primer</code>:
+Replikasi asinkron situs primer memiliki satu replika yang dianggap sebagai master atau data primer. Replika lainnya disebut replika sekunder. Tidak seperti replika primer, replika sekunder tidak dapat di-update langsung. Mekanisme pemilihan replika primer dan sekunder melalui mekanisme pendaftaran oleh pengguna dan penentuan relasi di situs  tertentu yang dijadikan replika primer dan replika lainnya harus mengacunya.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Replikasi asinkron peer-to-peer</code>:
+Pada replikasi asinkron peer-to-peer, beberapa replika bisa di-update (mungkin tidak semua) dan dijadikan replika master. Dalam hal terjadi konflik, karena masalah keterlambatan propagasi, maka harus diterapkan salah satu strategi penanganan konflik. Secara umum konflik biasanya dapat diselesaikan, bahkan lebih sering tidak terjadi konflik, sehingga jenis replikasi ini banyak digunakan.</p>
+  </li>
+</ol>
+
+<p>Salah satu strategi pencegah konflik adalah waktu proses transaksi update tidak bersamaan dan pada satu saat hanya dilakukan terhadap salah satu replika (yang lain tidak dapat di-update), kemudian perubahan terhadap replika master itu dipropagasi ke replika yang lain. Jika ada kegagalan update terhadap salah satu replika, maka diambil alih oleh salah satu replika yang lain yang biasa dijadikan sebagai backup. Pada sistem terdistribusi transaksi dapat dilakukan pada suatu tempat tetapi dapat akses data di tempat lain. Setiap transaksi dipecah menjadi beberapa sub-transaksi yang dijalankan secara tersebar melalui manajer transaksi pada setiap tempat sub-transaksi dijalankan untuk dikoordinasikan. Untuk kasus kontrol proses yang terjadi bersamaan (konkuren), maka ada mekanisme penguncian objek yang digunakan yang ada di tempat lain, juga bagaimana cara mendeteksi jika terjadi deadlock.</p>
+
+<p>Pengelolaan penguncian objek yang terdistribusi dapat dilakukan dengan beberapa cara, yaitu :</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Secara terpusat (sentralisasi)</code></li>
+</ul>
+
+<p>Pada cara terpusat, penanganan penguncian dilakukan dari satu tempat.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Replika primer</code></li>
+</ul>
+
+<p>Pada cara replika primer, penanganan penguncian dilakukan pada tempat replika primer berada.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Terdistribusi penuh</code></li>
+</ul>
+
+<p>Pada cara terdistribusi penuh, maka penanganan penguncian dilakukan pada tempat replika yang akan dikunci. Cara ini lebih banyak digunakan.</p>
+
+<h2 id="d-metode-replikasi">D. Metode Replikasi</h2>
+
+<p>Ada 4 metode replikasi yaitu :</p>
+
+<ol>
+  <li>Snapshot
+    <ul>
+      <li>Mencopy semua data dari ARTIKEL ke SUBSCRIBER</li>
+      <li>Mengabaikan data yang telah dimodifikasi di SUBSCRIBER (subscriber menjadi Read Only)</li>
+      <li>Network Bandwidth yang dibutuhkan sangat besar</li>
+      <li>Mudah implementasinya</li>
+      <li>Proses Copy Artikel terjadi dalam suatu waktu</li>
+    </ul>
+  </li>
+  <li>Transactional
+    <ul>
+      <li>Proses Copy Transaksi dari Artikel, dengan memanfaatkan Transaction Log milik Publication DB</li>
+      <li>Setiap perubahan data yang terjadi akan dicopy dulu ke Distributor, baru kemudian dicopy ke Subscriber</li>
+      <li>Lebih efisien daripada Snapshot Replication</li>
+      <li>Traffic Network menjadi minimal (krn butuh bandwidth kecil)</li>
+      <li>Real Time</li>
+    </ul>
+  </li>
+  <li>Transactional publication with updatable subscriptions
+    <ul>
+      <li>Seperti Transactional Replication</li>
+      <li>Bedanya, Subscriber bisa juga mempublikasi ke Pusblisher
+4.Merge</li>
+      <li>Publisher &amp; Subscriber berhak untuk melakukan Publikasi secara independen</li>
+      <li>Publisher bisa mempublikasikan datanya ke site-site yang lain</li>
+      <li>Subscriber bisa mempublikasikan datanya ke site-site yang lain</li>
+      <li>Konflik data bisa terjadi, tapi bisa ditangani dengan menetapkan beberapa aturan khusus</li>
+      <li>Proses “Merge” terjadi dalam suatu interval waktu</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="e-manfaat-replikasi-database">E. Manfaat Replikasi Database</h2>
+
+<p>Adapun manfaat dengan adanya Replikasi Database yaitu :</p>
+
+<ul>
+  <li>Menghindari kemungkinan tidak semua data ter-backup karena saat proses backup data manual dilakukan bisa saja terjadi perubahan data oleh client</li>
+  <li>Apabila server master mengalami kerusakan, database bisa segera dialihkan ke server slave</li>
+  <li>Replikasi master-slave berlangsung secara realtime dimana setiap perubahan pada data server master akan otomatis merubah data pada server slave</li>
+</ul>]]></content><author><name>memet</name></author><category term="database" /><category term="database" /><summary type="html"><![CDATA[A. Konsep Dasar Replikasi]]></summary></entry><entry><title type="html">Perintah Dasar Terminal Linux</title><link href="https://maling-it.github.io/linux/perintah-dasar-linux/" rel="alternate" type="text/html" title="Perintah Dasar Terminal Linux" /><published>2022-04-14T00:00:00+00:00</published><updated>2022-04-14T00:00:00+00:00</updated><id>https://maling-it.github.io/linux/perintah-dasar-linux</id><content type="html" xml:base="https://maling-it.github.io/linux/perintah-dasar-linux/"><![CDATA[<h2 id="perintah-dasar-di-terminal-linux">Perintah Dasar di terminal Linux</h2>
+<p>Seiring makin berkembangnya Linux, saat ini program Linux dengan tampilan yang mendukung GUI
+(Graphical User Interface) makin banyak. Dengan GUI (Graphical User Interface) sehingga pengguna
+semakin dipermudah dalam mengoperasikan. Konsekuensi dari penggunaan GUI di Linux adalah
+memperberat kerja sistem terutama komputer dengan spesifikasi yang minimum jadul.
+Mekipun GUI sudah banyak beredar, perintah-perintah melalui terminal linux penggunaannya
+terkadang tidak bisa kita hindari. Dalam beberapa kasus penggunaan terminal linux sangat mutlak.
+Hal inilah yang mendorong bagi kita untuk mengenal perintah-perintah dasar di terminal linux.
+Sebagai permulaan, berikut ini adalah beberapa perintah-perintah dasar yang biasa digunakan di
+Linux, antara lain:</p>
+
+<table class="table table-hover table-bordered">
+  <thead>
+    <tr>
+      <th>Nama</th>
+      <th style="text-align: center">Info</th>
+    </tr>
+  </thead>
+  <tbody>
+  
+    <tr>
+      <td>man</td>
+      <td><p>Perintah ini biasa digunakan untuk menampilkan halaman manual atau help dari suatu perintah. Format penulisannya <code class="language-plaintext highlighter-rouge">man</code> , perintah man sangat menolong kita untuk berjalan-jalan di teminal linux ini. Contoh <code class="language-plaintext highlighter-rouge">man man</code> akan menampilkan halaman manual dari <code class="language-plaintext highlighter-rouge">man</code>.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>cd</td>
+      <td><p>Namanya terinspirasi dari <code class="language-plaintext highlighter-rouge">change directory</code>, digunakan untuk berpindah dari satu direktori ke direktori lainnya. Argumen yang biasa digunakan adalah alamat suatu direktori, baik relatif maupun mutlak. Jika digunakan tanpa argumen ia akan memanggil direktori <code class="language-plaintext highlighter-rouge">$HOME</code>. Contoh <code class="language-plaintext highlighter-rouge">cd /etc/X11</code> akan memindahkan direktori yang aktif ke <code class="language-plaintext highlighter-rouge">/etc/X11</code>. Ada dua argumen istimewa untuk perintah ini yaitu <code class="language-plaintext highlighter-rouge">.</code> dan <code class="language-plaintext highlighter-rouge">..</code> karena <code class="language-plaintext highlighter-rouge">cd .</code> akan memanggil direktori itu sendiri dan <code class="language-plaintext highlighter-rouge">cd ..</code> akan berpindah ke direktori di atasnya (naik satu tingkat).</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>pwd</td>
+      <td><p>Merupakan kependekan dari present working direktori, digunakan untuk melihat path lengkap dari direktori yang sedang aktif saat ini.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>ls</td>
+      <td><p>Perintah ini digunakan untuk melihat isi suatu direktori. Penggunannya <code class="language-plaintext highlighter-rouge">ls /path</code>, <code class="language-plaintext highlighter-rouge">path</code> bisa berupa alamat mutlak atau relatif, jika digunakan tanpa argumen <code class="language-plaintext highlighter-rouge">/path</code> akan menampilkan isi direktori saat ini.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>mkdir</td>
+      <td><p>Sesuai dengan namanya yang merupakan kependekan dari make directory, perintah ini digunakan untuk membuat direktori. Biasa dijalankan dengan menuliskan <code class="language-plaintext highlighter-rouge">mkdir /path</code>, jika argumen <code class="language-plaintext highlighter-rouge">/path</code> bukan merupakan alamat mutlak maka direktori yang dibuat akan relatif terhadap direktori saat ini. Contoh <code class="language-plaintext highlighter-rouge">mkdir /home/userkamu/coba</code> akan menghasilkan direktori coba di direktori home user userkamu.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>rmdir</td>
+      <td><p>Nama aslinya adalah <code class="language-plaintext highlighter-rouge">remove directory</code>, digunakan untuk menghapus direktori. Namun ia hanya akan menghapus direktori yang kosong. Seperti saudaranya yang lain ia bisa digunakan dengan format <code class="language-plaintext highlighter-rouge">rmdir /path</code>.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>mv</td>
+      <td><p>contoh <code class="language-plaintext highlighter-rouge">mv /path/asal /path/tujuan</code> akan memindahkan suatu berkas atau direktori dari path asal ke tujuan. Bisa juga digunakan untuk mengganti nama suatu berkas, dengan syarat <code class="language-plaintext highlighter-rouge">/path</code> harus sama.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>cp</td>
+      <td><p>Untuk menyalin suatu berkas dari path asal ke path tujuan jalankan perintah <code class="language-plaintext highlighter-rouge">cp /path/asal /path/tujuan</code>. Berbeda dengan <code class="language-plaintext highlighter-rouge">mv</code> yang akan memusnahkan asalnya, <code class="language-plaintext highlighter-rouge">cp</code> akan mempertahankannya sehingga akan dihasilkan dua berkas yang sama.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>rm</td>
+      <td><p>Berasal dari kata remove, digunakan untuk menghapus suatu berkas dengan perintah <code class="language-plaintext highlighter-rouge">rm /nama/berkas</code>, bisa juga digunakan untuk menghapus direktori yang tidak kosong dengan menyertakan opsi <code class="language-plaintext highlighter-rouge">-rf</code>.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>du</td>
+      <td><p>Diambil dari disk usage, digunakan untuk mengestimasi pemakaian ruang disk, data akan ditampilkan per berkas. Jika digunakan tanpa argumen akan menampilkan pemakaian ruang disk pada direktori aktif. Format penulisannya <code class="language-plaintext highlighter-rouge">du /path/target</code>. Gunakan opsi <code class="language-plaintext highlighter-rouge">-h</code> untuk menampilkan hasil yang lebih mudah dibaca.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>df</td>
+      <td><p>Disk free, digunakan untuk melihat kapasitas disk yang masih kosong/bebas. Gunakan opsi <code class="language-plaintext highlighter-rouge">-h</code> jika ingin hasil yang lebih enak dipandang.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>clear</td>
+      <td><p>Self titled, digunakan untuk membersihkan terminal (layar).</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>ps</td>
+      <td><p>Menampilkan informasi tentang proses yang sedang aktif/berjalan di sistem. Ada banyak opsi yang bisa diberikan pada perintah ini, salau satunya adalah aux yang akan menampilkan seluruh proses dalam sistem.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>top</td>
+      <td><p>Hampir sama dengan ps hanya saja top akan menampilkan informasi yang selalu up to date dan bersifat dinamis.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>cat</td>
+      <td><p>Berasal dari kata concatenate, digunakan untuk menampilkan isi dari suatu berkas ke keluaran standar (biasanya layar monitor). Dijalankan dengan mengetikkan <code class="language-plaintext highlighter-rouge">cat /nama/berkas</code>.</p>
+</td>
+    </tr>
+
+    <tr>
+      <td>echo</td>
+      <td><p>Biasa digunakan untuk menampilkan string/karakter di layar monitor, namun bisa juga digunakan untuk membuat file dengan memanfaatkan output redirection. Perintah-perintah di atas hanyalah beberapa diantara perintah yang sangat kompleks yang terdapat di dunia Linux. Begitu pula penjelasan, argumen, dan opsi yang dijelaskan hanyalah sekelumit dari puluhan bahkan sampai ratusan argumen dan opsi untuk setiap perintah. Cara termudah untuk mendapatkan penjelasan tentang suatu perintah adalah membuka halaman manualnya.</p>
+</td>
+    </tr>
+
+  </tbody>
+</table>]]></content><author><name>memet</name></author><category term="linux" /><category term="linux" /><category term="command" /><summary type="html"><![CDATA[Perintah Dasar di terminal Linux Seiring makin berkembangnya Linux, saat ini program Linux dengan tampilan yang mendukung GUI (Graphical User Interface) makin banyak. Dengan GUI (Graphical User Interface) sehingga pengguna semakin dipermudah dalam mengoperasikan. Konsekuensi dari penggunaan GUI di Linux adalah memperberat kerja sistem terutama komputer dengan spesifikasi yang minimum jadul. Mekipun GUI sudah banyak beredar, perintah-perintah melalui terminal linux penggunaannya terkadang tidak bisa kita hindari. Dalam beberapa kasus penggunaan terminal linux sangat mutlak. Hal inilah yang mendorong bagi kita untuk mengenal perintah-perintah dasar di terminal linux. Sebagai permulaan, berikut ini adalah beberapa perintah-perintah dasar yang biasa digunakan di Linux, antara lain:]]></summary></entry><entry><title type="html">Bash Shell</title><link href="https://maling-it.github.io/linux/bash-shell/" rel="alternate" type="text/html" title="Bash Shell" /><published>2022-03-29T00:00:00+00:00</published><updated>2022-03-29T00:00:00+00:00</updated><id>https://maling-it.github.io/linux/bash-shell</id><content type="html" xml:base="https://maling-it.github.io/linux/bash-shell/"><![CDATA[<p>Bash shell <code class="language-plaintext highlighter-rouge">de facto</code> di sebagian besar sistem yang akan kamu temui seperti: Linux, macOS, dan WSL di Windows 10.</p>
+
+<p>Ada alasan historis yang menjadikan Bash shell paling populer di dunia. Kembali pada tahun 1989, ketika pertama kali dirilis, dunia teknologi sangat berbeda. Pada saat itu, sebagian besar perangkat lunak di dunia UNIX adalah (close source). Unix berpemilik dan dengan sumber yang tertutup.</p>
+
+<p>Untuk menggunakan sistem UNIX kamu harus menggunakan shell.</p>
+
+<p>Shell paling populer saat itu adalah sumber tertutup dan berpemilik, Kamu harus membayar untuk menggunakannya. Itu adalah Bourne Shell, tersedia di bawah perintah <code class="language-plaintext highlighter-rouge">/bin/sh</code>. Itu disebut “Bourne” karena penciptanya adalah Steve Bourne.</p>
+
+<p>Richard Stallman pada tahun-tahun dengan Proyek GNU (dan kemudian di Linux) akan merevolusi segalanya, memulai revolusi Open Source. Proyek GNU membutuhkan shell, dan, dengan bantuan Free Software Foundation, Bash lahir. Sangat terinspirasi oleh Bourne Shell, Bash berarti <code class="language-plaintext highlighter-rouge">Bourne-again shell</code> dan merupakan salah satu bahan utama dari Proyek GNU, dan mungkin salah satu perangkat lunak paling sukses yang masih kita gunakan sampai sekarang.</p>
+
+<p>Bash dapat menjalankan semua skrip yang ditulis dengan format <code class="language-plaintext highlighter-rouge">sh</code>, yang merupakan fitur wajib untuk penerapannya, dan juga memperkenalkan lebih banyak fitur, sejak awal, menawarkan pengalaman yang lebih baik kepada penggunanya. Sejak hari-hari awal itu, Bash memperoleh banyak peningkatan. Tutorial ini menjelaskan hal-hal paling populer dan berguna yang dapat kamu lakukan dengannya.</p>
+
+<h3 id="langkah-pertama-di-bash">Langkah pertama di Bash</h3>
+<p>Karena Bash adalah shell default di banyak sistem, yang kamu butuhkan untuk memulai shell bash adalah</p>
+
+<ul>
+  <li>masuk ke sistem, jika itu adalah server</li>
+  <li>buka terminal, jika itu komputer lokal</li>
+</ul>
+
+<p>Segera setelah kamu melakukannya, kamu akan melihat prompt (yang biasanya diakhiri dengan <code class="language-plaintext highlighter-rouge">$</code>).</p>
+
+<p>Bagaimana kita bisa tahu jika Shell menjalankan bash? Coba ketik <code class="language-plaintext highlighter-rouge">help</code> dan menekan enter.</p>
+
+<p><img src="https://telegra.ph/file/e55a5611c1edfca3ca0ae.png" alt="ss-ubuntu" /></p>
+
+<p>lihat? kita baru saja menyuruh Bash untuk mengeksekusi perintah <code class="language-plaintext highlighter-rouge">help</code>. Perintah ini secara bergantian menunjukkan versi Bash yang kamu jalankan dan daftar perintah yang dapat di gunakan.</p>
+
+<p>Lebih sering daripada tidak, kamu tidak akan pernah menggunakan perintah apa pun yang tercantum dalam bantuan bash, kecuali jika kamu membuat skrip shell atau hal-hal lanjutan.</p>
+
+<p>99% dari penggunaan shell sehari-hari adalah menvigasi folder dan menjalankan program seperti <code class="language-plaintext highlighter-rouge">ls</code>, <code class="language-plaintext highlighter-rouge">cd</code> dan utilitas LINUX umum lainnya.</p>
+
+<h3 id="menavigasi-sistem-file">Menavigasi sistem file</h3>
+<p>Untuk menavigasi melalui sistem file kamu akan menggunakan perintah <code class="language-plaintext highlighter-rouge">ls</code>. Ini tersedia di <code class="language-plaintext highlighter-rouge">/bin/ls</code>, dan karena Bash memiliki <code class="language-plaintext highlighter-rouge">/bin</code> folder dalam daftar jalurnya, kamu cukup mengetik <code class="language-plaintext highlighter-rouge">ls</code> untuk menggunakannya.</p>
+
+<p><code class="language-plaintext highlighter-rouge">ls</code> list daftar file dalam folder saat ini. kamu biasanya mulai dari folder home kamu, yang tergantung pada sistem tetapi pada linux ada di bawah <code class="language-plaintext highlighter-rouge">/home</code>. Folder rumah saya ada di <code class="language-plaintext highlighter-rouge">/home/memet</code>. Ini tidak terkait dengan Bash, ini lebih merupakan masalah sistem file linux, tetapi argumen tumpang tindih dan jika kamu belum pernah menggunakan Shell, ada baiknya untuk mengetahuinya.</p>
+
+<p><img src="https://telegra.ph/file/d5333267fb17f39f99e0d.png" alt="ss-ls" /></p>
+
+<p>Untuk menavigasi ke folder lain kamu bisa menggunakan perintah <code class="language-plaintext highlighter-rouge">cd</code>, diikuti dengan nama folder yang ingin kamu masuki:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>Documents</code></pre></figure>
+
+<p><code class="language-plaintext highlighter-rouge">cd ..</code> kembali ke folder induk.</p>
+
+<p>Tergantung pada konfigurasi Bash kamu, kamu akan melihat foldermu saat ini ditampilkan sebelum prompt (the <code class="language-plaintext highlighter-rouge">$</code> simbol). Atau mungkin tidak, tetapi kamu selalu dapat mengetahui di mana kamu berada dengan mengetik <code class="language-plaintext highlighter-rouge">pwd</code> dan menekan <code class="language-plaintext highlighter-rouge">enter</code>.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">pwd</code> berarti <em>p</em>athname(nama jalur) dari <em>w</em>orking(kerja) <em>d</em>irectory(direktori)</p>
+</blockquote>
+
+<h3 id="pengeditan-baris-perintah">Pengeditan baris perintah</h3>
+<p>Saat kamu menulis perintah di shell, perhatikan bahwa kamu dapat bergerak ke kiri dan ke kanan dengan tombol panah. Ini adalah fitur shell. kamu dapat bergerak di sekitar perintah mu, tekan tombol spasi mundur dan perintah yang benar. Menekan <code class="language-plaintext highlighter-rouge">enter</code> key memberitahu shell untuk mengeksekusi dan membiarkan sistem menjalankan perintah.</p>
+
+<p>Ini adalah perilaku yang normal dan diterima, tetapi sesuatu yang mungkin membuat “wow” bagi para pengguna UNIX/LINUX baru.</p>
+
+<p>Kombinasi keyboard membantu kamu untuk mengedit lebih cepat tanpa harus menekan tombol panah:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ctrl+d</code> untuk menghapus karakter yang dipilih saat ini</li>
+  <li><code class="language-plaintext highlighter-rouge">ctrl+f</code> untuk pergi ke karakter di sebelah kanan</li>
+  <li><code class="language-plaintext highlighter-rouge">ctrl+b</code> untuk pergi ke karakter di sebelah kiri</li>
+</ul>
+
+<h3 id="autocomplete">Autocomplete</h3>
+<p>Fitur Bash yang bagus saat menavigasi sistem file dan menjalankan perintah adalah autocomplete atau pelengkap otomatis.
+coba ketik <code class="language-plaintext highlighter-rouge">cd Doc</code> lalu tekan <code class="language-plaintext highlighter-rouge">TAB</code> key untuk membuat Bash melengkapinya secara otomatis untuk <code class="language-plaintext highlighter-rouge">cd Documents</code>. Jika ada beberapa pilihan untuk karakter pertama, kamu dapat mengetik beberapa karakter lagi untuk membantu menghilangkan ambiguitas dan tekan <code class="language-plaintext highlighter-rouge">TAB</code> lagi untuk menyelesaikannya.</p>
+
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAuEAAAB5CAIAAAAYiGjCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAgAElEQVR4nO3dd3hUVdoA8PfcOy1TMpl0QkIKIT0hoQUSIIReRUBYilgQC8uW7xN1v111d1VcK+q6qLiouAgWZKV3EAgkBAkthfRGepvMZCaZeu/5/kgIAVLGkAa8v8fncTK3vXPuZc4755x7LnFzc6OUwq3ufOdOtqyDEEIIIUQI6cY6gttSjXYzD0xHEEIIIdRt7SYStyUlzeu0fVNw52KGYQghDMP0SpgIIYQQQm1QSimlPM83v2hNUwStiwGAEMKyLMuyCoVCJpOyrAAzFYQQQgj1Hp7nOc7a2Nik0+k4jrNara05iQBuTVAcHBwUCoXFYjGZzJSasJcHIYQQQr2HEEIIkUgkCoVCp9NpNBqO41oaVFxcXJpXEggErq6uDMOYzeb+DRchhBBCDyCRSMTzfE1NjcViAYCWrpzmFhQAwAQFIYQQQv2iOQlRKpUCgQCacxRCiFAolEjEVqu1n6NDCCGE0APMarVKJBKWZVvGozAMY2dnZzJhCwpCCCGE+pnJZJJKpVarVUApZRhGKBS2OzzWYrGYzebm0Ss9ePjm8blisbi5MQchhNAA17/VAVZGDxqhUNjSjtKR5mvCwcFBIpH07E3IPM8bjUaNRkMpFQqFPbhnhBBCPa5/qwOsjB5MhBDi7OwsEolUKtVtyWnzNeHm5ga9M89s8wwtVVVVIpEIrwyEEBqw+rc6wMrowUQIqa+vb0lI75wR32w2K5XK5huUe+PwzXtWKpVmsxlnYUEIoYGpf6sDrIweWC0T33d0SjiOE4vFvR2EWCzmOK63j4IQQqjb+rc6wMroQdZhx16fpZOYtyKE0EDWv9UBVkYPss7GzOIJQwghBP1dHWBl9MDCRwYihBBCaCC65bnHrfo4acUcGSGEBqb+rQ6wMnrA4aw1CCGEegClVK1Wa7Vao9EIABKJxMHBQaVSNd/ci1A3YF8PQgihu2WxWMrKShctWrh37+68vJy8vJy9e3c//PD80tLS5gfYItQNd9WOYjQay8vLjUZju+1jhBA7O7tBgwZJJJK7OQpCqB8xYodBXk7W0vwqY3+HggYqSqnJZNq9e1dtbd1XX23JyckFgMDAgEWLFi1evPjJJ1cJBILebk3JyMjoZGloaGivHh31EsHddL/Z29tv3PhxYGBguzevm0ymrKysl19+tflRywihew5RzHhr98vjBVmbHnvum2L+9sWSQaNnL5w3eWyEv7uDBAz1FQUZKQmH9uxPKm7sk259xjFs7vKlcycM93OTQVN1wcVjWz/derYCf7X3Nb1et2XLV2fOnP3hhx2tb169mnr1auqyZUu/+GLzU0+tVigUvRpDWVlJJ0unT5/Zq0cfUAoKCtp938/Pr1ePW1VVJZVK255onU7X1NTUPEdw99xVO8rrr//97Nmk9evfbGjQ8fwt318Mw9jbKyZNin/ttb/9+c8v381REEL9hjAs2/7PX4nvnJfW/890b7Y+P+X8kXO1BiJz84sY/fDvJ81fnPj5q6//mNkHeYosZMbDEwKppk6tUzh7hE5+/I1B5ief+abojmwK9arZs2fX1NS2TVBafffd9wEBATNmTE9KOterMTxQWUjnKirK2n0/NnZC7x2UYZht277ZsePHY8eO2dvbA4BOp5s6deqSJYtffPGl2zIE291VjhIaGrZ+/T/0ev2di3ie12i0x48ff+qpJ+/mEAg9uNih8/+89qEwXw9npUxgqs48c+BMnf/k6aP9VVBfdGH3xve/uVTf/A+fdR61bM3qh2MCnVldWdqp7Z9tOpTXRHtiD80Ewc99e/o5AMuVf/7m9zureGCc4//0wUtTpTn//ds/E53mPr5o9mR3Ka+vKso9/t8an5kz1779Ys2q1042TPjrwX9Mk7ZJcqy5X65atZ0u++e/14QJin/4w+pPUk0us9786i8TZAXb/vDspnQjsQ+et2r14knDvZSksSJj59svbkk1dRAeX/LTyytOmmpqDDyRx73y/frpSo/B7iypHf70htcXuhZue/mlbdewi6r3zZs395tvtnW0dNeuXcuXL+vtHAW1dWc6kph4plePyPP8zz+ffO+9d15+WXjgwEFCyJQpU957750PP/yo2wkK3GWOIhaLbktQMjIy2nb76fX6PpjDGKH7E+MeMWFUkIya9ZoG3t49YtbqCKCcoUHPKVyGTVr9mqV4xWunGihIo9Z88P5SX4FFW1ltchgyetGf/VXmJ/96XE3veg8tkVCTprKqwQLWKh0HACAdvWrtVGf1yb+/enDwa588E8zWpCUc0fjEjQ+OrDm09OUPZFtemfzkwm8Tvm6qLbl+3Y4AsHJXD0cJ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" alt="ss-ls" /></p>
+
+<p>Shell dapat melengkapi nama file secara otomatis, dan juga nama perintah.</p>
+
+<h3 id="perintah-shell">Perintah Shell</h3>
+
+<p>Menggunakan shell kita dapat menjalankan perintah yang tersedia pada sistem. Kita dapat mengawali perintah dengan path lengkap (mis /bin/lsuntuk membuat daftar file dalam folder) tetapi shell memiliki konsep path sehingga kita bisa mengetik lsdan ia tahu di mana sebagian besar perintah ditemukan (dan kita dapat menambahkan folder ke jalur ini dengan mengonfigurasinya).</p>
+
+<p>Perintah menerima argumen. Sebagai contoh ls /binakan mencantumkan semua file di /binmap.</p>
+
+<p>Parameter diawali dengan tanda hubung -, menyukai ls -ayang menceritakan lsuntuk juga menampilkan file tersembunyi. File tersembunyi sebagai konvensi adalah file (dan folder) yang dimulai dengan titik ( .).</p>]]></content><author><name>memet</name></author><category term="linux" /><category term="linux" /><category term="bash" /><summary type="html"><![CDATA[Bash shell de facto di sebagian besar sistem yang akan kamu temui seperti: Linux, macOS, dan WSL di Windows 10.]]></summary></entry><entry><title type="html">Kompress HTML jekyll</title><link href="https://maling-it.github.io/jekyll/kompress-html-jekyll/" rel="alternate" type="text/html" title="Kompress HTML jekyll" /><published>2022-03-28T00:00:00+00:00</published><updated>2022-03-28T00:00:00+00:00</updated><id>https://maling-it.github.io/jekyll/kompress-html-jekyll</id><content type="html" xml:base="https://maling-it.github.io/jekyll/kompress-html-jekyll/"><![CDATA[<p>Sama seperti CSS dan JavaScript, output HTML dapat dikompresi dan diperkecil dengan menghapus spasi, baris baru, komentar, dan bahkan menghapus tag penutup opsional tertentu, membuat ukuran file menjadi lebih kecil.</p>
+
+<p>Lihat sumber halaman ini misalnya untuk melihat hasil kompresi tersebut. Dengan Jekyll, sebuah plugin bernama <a href="https://github.com/penibelst/jekyll-compress-html">jekyll-compress-html</a> membantu Anda melakukan hal itu. Plugin ini menggunakan sintaks Liquid murni untuk menyelesaikan kompresi HTML, sehingga tidak bergantung pada apa pun.</p>
+
+<h2 id="instalasi">Instalasi</h2>
+<p>Mulailah dengan plugin dalam dua langkah sederhana:</p>
+
+<ul>
+  <li>Unduh dan ekstrak plugin <code class="language-plaintext highlighter-rouge">compress.html</code> file dan letakkan di <code class="language-plaintext highlighter-rouge">_layouts</code> folder setup Jekyll Anda.</li>
+  <li>Di plugin utama, biasanya <code class="language-plaintext highlighter-rouge">default.html</code> , tambahkan Front Matter berikut:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">compress</span>
+<span class="nn">---</span></code></pre></figure>
+
+<h2 id="penggunaan">Penggunaan</h2>
+<p>Sekarang setelah plugin dipasang dan disiapkan, Anda dapat mengonfigurasi plugin tersebut di <code class="language-plaintext highlighter-rouge">_config.yml</code>. Sebagai contoh:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">compress_html</span><span class="pi">:</span>
+  <span class="na">clippings</span><span class="pi">:</span> <span class="s">all</span>
+  <span class="na">comments</span><span class="pi">:</span> <span class="pi">[</span><span class="s2">"</span><span class="s">"</span><span class="pi">]</span>
+  <span class="na">endings</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">html</span><span class="pi">,</span> <span class="nv">head</span><span class="pi">,</span> <span class="nv">body</span><span class="pi">,</span> <span class="nv">li</span><span class="pi">,</span> <span class="nv">dt</span><span class="pi">,</span> <span class="nv">dd</span><span class="pi">,</span> <span class="nv">rt</span><span class="pi">,</span> <span class="nv">rp</span><span class="pi">,</span> <span class="nv">optgroup</span><span class="pi">,</span> <span class="nv">option</span><span class="pi">,</span> <span class="nv">colgroup</span><span class="pi">,</span> <span class="nv">caption</span><span class="pi">,</span> <span class="nv">thead</span><span class="pi">,</span> <span class="nv">tbody</span><span class="pi">,</span> <span class="nv">tfoot</span><span class="pi">,</span> <span class="nv">tr</span><span class="pi">,</span> <span class="nv">td</span><span class="pi">,</span> <span class="nv">th</span><span class="pi">]</span>
+  <span class="na">profile</span><span class="pi">:</span> <span class="no">false</span>
+  <span class="na">blanklines</span><span class="pi">:</span> <span class="no">false</span>
+  <span class="na">ignore</span><span class="pi">:</span>
+    <span class="na">envs</span><span class="pi">:</span> <span class="pi">[]</span></code></pre></figure>
+
+<p>Dan inilah rincian singkat dari opsi konfigurasi:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clippings</code> : Array elemen di mana spasi akan dihapus. Menggunakan <code class="language-plaintext highlighter-rouge">all</code> kata kunci untuk memasukkan semua elemen yang aman untuk dimanipulasi. <code class="language-plaintext highlighter-rouge">pre</code> akan diabaikan untuk mempertahankan spasi.</li>
+  <li><code class="language-plaintext highlighter-rouge">comments</code> : Array dengan tag awal dan akhir untuk komentar yang akan dihapus. Perhatikan spasi tambahan, sehingga komentar yang tidak memiliki spasi putih akan disimpan.</li>
+  <li><code class="language-plaintext highlighter-rouge">endings</code> : Array tag akhir opsional, yang akan dihapus. Gunakan kata kunci <code class="language-plaintext highlighter-rouge">all</code> untuk menghapus semuanya. Dalam contoh di atas saya menentukan semua tag akhir opsional kecuali untuk <code class="language-plaintext highlighter-rouge">p</code> .</li>
+  <li><code class="language-plaintext highlighter-rouge">profile</code> : Ubah tanda ini menjadi true dalam mode pengembangan untuk melihat tabel yang ditambahkan di akhir halaman Anda yang menampilkan perincian elemen pada halaman.</li>
+  <li><code class="language-plaintext highlighter-rouge">blanklines</code> : Ubah tanda ini menjadi true jika Anda hanya ingin menciutkan baris kosong dan menjaga jeda baris tetap utuh.</li>
+  <li><code class="language-plaintext highlighter-rouge">ignore.envs</code> : Array nama lingkungan Jekyll tempat tata letak kompres harus dimatikan. Ini dapat berguna jika Anda ingin mematikan kompresi dalam mode pengembangan.</li>
+  <li><code class="language-plaintext highlighter-rouge">startings</code> : Array tag awal opsional, yang akan dihapus. Sebagai contoh: <code class="language-plaintext highlighter-rouge">startings: [html, head, body]</code></li>
+</ul>]]></content><author><name>memet</name></author><category term="jekyll" /><category term="jekyll" /><category term="kompres" /><category term="html" /><summary type="html"><![CDATA[Sama seperti CSS dan JavaScript, output HTML dapat dikompresi dan diperkecil dengan menghapus spasi, baris baru, komentar, dan bahkan menghapus tag penutup opsional tertentu, membuat ukuran file menjadi lebih kecil.]]></summary></entry><entry><title type="html">apa itu rEFInd?</title><link href="https://maling-it.github.io/linux/apa-itu-refind/" rel="alternate" type="text/html" title="apa itu rEFInd?" /><published>2022-03-27T00:00:00+00:00</published><updated>2022-03-27T00:00:00+00:00</updated><id>https://maling-it.github.io/linux/apa-itu-refind</id><content type="html" xml:base="https://maling-it.github.io/linux/apa-itu-refind/"><![CDATA[<p>Beberapa hari terakhir banyak sekali yang mengalami kendala di grub2 seperti</p>
+
+<ul>
+  <li>Grub tidak bisa booting OS</li>
+  <li>UUID partisi berubah</li>
+  <li>Bootable OS tidak terdeteksi</li>
+  <li>dan semacamnya</li>
+</ul>
+
+<p>Saya pernah mengalami semua diatas dan akhirnya mencari referensi untuk menyelesaikan masalahnya, dan ketemu yang namanya rEFInd.</p>
+
+<h2 id="apa-itu-refind">Apa itu rEFInd?</h2>
+
+<p>rEFInd adalah boot manager untuk komputer EFI dan UEFI yang bisa mem-boot banyak OS seperti linux, windows dan MAC. ini sangat berguna jika anda yang suka distrohoping atau punya beberapa OS di satu sistem yang sama. dan perlu diketahui bawha rEFInd tidak akan bisa digunakan jika perangkat anda berbasis BIOS (EFI ONLY), atau komputer tua sebelum tahun 2011 atau lebih lama. atau juga pada sistem dengan jenis firmware lain, seperti Mac berbasis PowerPC.</p>
+
+<p>beberapa komputer di luar Mac berbasis Intel menggunakan EFI; namun mulai tahun 2011, produsen komputer mulai berbondong-bondong mengadopsi UEFI, sehingga kebanyakan komputer yang dibeli sejak saat itu menggunakan EFI. Meski begitu, banyak PC modern mendukung boot gaya EFI dan boot gaya BIOS, yang terakhir melalui mode kompatibilitas BIOS yang dikenal sebagai Compatibility Support Module (CSM). Dengan demikian, Anda mungkin menggunakan boot gaya BIOS pada komputer berbasis EFI.</p>
+
+<p>rEFInd sendiri merupakan kembangan dari rEFIt yang tidak ada perkembangan sejak tahun 2010.</p>
+
+<h3 id="apa-keuntungan-yang-didapatkan-menggunakan-refind">Apa keuntungan yang didapatkan menggunakan rEFInd??</h3>
+
+<ul>
+  <li>Tidak perlu masuk BIOS lagi untuk mengubah urutan boot</li>
+  <li>Dukungan Tema yang bisa di ubah sesuka hati</li>
+  <li>dan banyak lagi</li>
+</ul>
+
+<h3 id="support-instalasi">Support Instalasi</h3>
+
+<ul>
+  <li>Binary ZIP file</li>
+  <li>Binary RPM file</li>
+  <li>Binary Debian Package</li>
+  <li>CD-R image file</li>
+  <li>Source code Tarball</li>
+  <li>Source code Git</li>
+</ul>
+
+<h4 id="instalasi-debian">Instalasi Debian</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="nb">sudo </span>apt-add-repository ppa:rodsmith/refind
+ <span class="nb">sudo </span>apt-get update
+ <span class="nb">sudo </span>apt-get <span class="nb">install </span>refind</code></pre></figure>
+
+<h4 id="instalasi-void-linux">Instalasi Void Linux</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">search refind
+get refind</code></pre></figure>
+
+<p>Silahkan Kunjungi link berikut
+<a href="http://www.rodsbooks.com/refind/getting.html">rEFInd</a></p>
+
+<p>Source</p>
+<ul>
+  <li><a href="http://www.rodsbooks.com/refind/">rEFInd</a></li>
+</ul>
+
+<p>Sekian.</p>]]></content><author><name>memet</name></author><category term="linux" /><category term="linux" /><category term="refind" /><category term="bootloader" /><summary type="html"><![CDATA[Beberapa hari terakhir banyak sekali yang mengalami kendala di grub2 seperti]]></summary></entry><entry><title type="html">Sejarah Linux &amp;amp; Debian</title><link href="https://maling-it.github.io/linux/sejarah-linux/" rel="alternate" type="text/html" title="Sejarah Linux &amp;amp; Debian" /><published>2022-03-24T00:00:00+00:00</published><updated>2022-03-24T00:00:00+00:00</updated><id>https://maling-it.github.io/linux/sejarah-linux</id><content type="html" xml:base="https://maling-it.github.io/linux/sejarah-linux/"><![CDATA[<h2 id="pendahuluan">Pendahuluan</h2>
+<p>Linux saat ini menjadi acuan dalam penggunaannya sebagai sistem operasi untuk server.
+Berdasarkan hasil riset dari Gartner Group, beberapa vendor server seperti HP, IBM, Dell, dan Sun, dilaporkan bahwa telah menggunakan secara luas bahwa penjualan server komersial yang berbasis linux mengalami peningkatan penjualan yang cukup signifikan yaitu sekitar 63%. Hasil riset ini kembali didukung dengan dukungan Novell kepada penggunaan Suse Linux pada mesin server yang dipasarkan.</p>
+
+<p>Nama Linux sendiri diturunkan dari pencipta awalnya, <code class="language-plaintext highlighter-rouge">LINUS TORVALDS</code>, dari Universitas
+Helsinki, Finlandia yang sebetulnya mengacu pada kernel dari suatu sistem operasi, suatu penamaan
+yang biasa digunakan untuk mengacu ke pada suatu kumpulan lengkap perangkat lunak, yang
+bersama-sama dengan kernel menyusun suatu sistem operasi yang lengkap.</p>
+
+<p>Linux dulunya adalah proyek hobi yang dikerjakan oleh Linus Torvalds yang memperoleh inspirasi dari Minix. Minix adalah sistem UNIX kecil yang dikembangkan oleh Andy Tanenbaum. Linux versi 0.01 dikerjakan sekitar bulan Agustus 1991 yang diposting ke milis comp.os.minix, dengan maksud menawarkan untuk
+mempublikasikan kode sumbernya dan mengundang para developer lain untuk mengembangkannya
+bersama-sama.</p>
+
+<p>Kemudian pada 5 Oktober 1991, Linus mengumumkan versi resmi Linux, yaitu 0.02
+yang hanya dapat menjalankan BASH (GNU Bourne Again Shell) dan GCC (GNU C Compiler). Untuk
+versi pertama dirilis pada tanggal 14 Maret 1994, setelah tiga (3) tahun mengalami masa
+pengembangan yang dilakukan bersama oleh banyak programmer dari seluruh dunia.</p>
+
+<p>Saat ini, Linux adalah sistem turunan UNIX yang lengkap, bisa digunakan untuk jaringan,pengembangan perangkat lunak, dan bahkan untuk pengunaan sehari-hari. Linux sekarang merupakan alternatif OS yang jauh lebih murah jika dibandingkan dengan OS komersial, dengan kemampuan Linux yang setara bahkan lebih lingkungan sistem operasi ini termasuk ratusan program termasuk, kompiler, interpreter, editor dan utilitas perangkat bantu yang mendukung konektifitas, Ethernet, SLIP dan PPP, dan interoperabilitas.</p>
+
+<p>Untuk masalah penggunaannya, pengguna dapat memilih distribusi-distribusi Linux yang telah
+dikenal, misalkan Redhat, Mandrake, Suse, Debian, Gentoo, Slackware, dan lain-lain.</p>]]></content><author><name>memet</name></author><category term="linux" /><category term="linux" /><category term="sejarah" /><summary type="html"><![CDATA[Pendahuluan Linux saat ini menjadi acuan dalam penggunaannya sebagai sistem operasi untuk server. Berdasarkan hasil riset dari Gartner Group, beberapa vendor server seperti HP, IBM, Dell, dan Sun, dilaporkan bahwa telah menggunakan secara luas bahwa penjualan server komersial yang berbasis linux mengalami peningkatan penjualan yang cukup signifikan yaitu sekitar 63%. Hasil riset ini kembali didukung dengan dukungan Novell kepada penggunaan Suse Linux pada mesin server yang dipasarkan.]]></summary></entry><entry><title type="html">update post</title><link href="https://maling-it.github.io/html/update/" rel="alternate" type="text/html" title="update post" /><published>2022-01-03T00:00:00+00:00</published><updated>2022-01-03T00:00:00+00:00</updated><id>https://maling-it.github.io/html/update</id><content type="html" xml:base="https://maling-it.github.io/html/update/"><![CDATA[<h1 id="hallo">hallo</h1>
+
+<p>Update postingan baru</p>]]></content><author><name>memet</name></author><category term="html" /><category term="html" /><summary type="html"><![CDATA[hallo]]></summary></entry><entry><title type="html">hallo</title><link href="https://maling-it.github.io/html/hallo/" rel="alternate" type="text/html" title="hallo" /><published>2022-01-01T00:00:00+00:00</published><updated>2022-01-01T00:00:00+00:00</updated><id>https://maling-it.github.io/html/hallo</id><content type="html" xml:base="https://maling-it.github.io/html/hallo/"><![CDATA[<h1 id="hallo">hallo</h1>
+
+<div class="mermaid">
+graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;
+</div>]]></content><author><name>zxce3</name></author><category term="html" /><category term="html" /><summary type="html"><![CDATA[hallo]]></summary></entry></feed>

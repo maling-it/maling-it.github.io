@@ -1,0 +1,20 @@
+{
+  "name": "MalingIT",
+  "short_name": "MalingIT",
+  "description": "Website malingIT",
+  "icons": [
+    {
+      "src": "/assets/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "theme_color": "#25282c",
+  "background_color": "#25282c",
+  "display": "fullscreen"
+}

@@ -1,0 +1,93 @@
+[
+  
+    {
+      "title"    : "Pengenalan DBMS dan RDBMS",
+      "category" : "database",
+      "tags"     : "database, dbms, rdbms",
+      "url"      : "https://maling-it.github.io/database/pengenalan-dbms-dan-rdbms/",
+      "author"   : "memet",
+      "date"     : "16 Jun 2022"
+    } ,
+  
+    {
+      "title"    : "belajar-golang",
+      "category" : "go",
+      "tags"     : "belajar, opini",
+      "url"      : "https://maling-it.github.io/go/belajar-golang/",
+      "author"   : "tutu",
+      "date"     : "12 Jun 2022"
+    } ,
+  
+    {
+      "title"    : "Replikasi Database",
+      "category" : "database",
+      "tags"     : "database",
+      "url"      : "https://maling-it.github.io/database/replikasi-database/",
+      "author"   : "memet",
+      "date"     : "09 May 2022"
+    } ,
+  
+    {
+      "title"    : "Perintah Dasar Terminal Linux",
+      "category" : "linux",
+      "tags"     : "linux, command",
+      "url"      : "https://maling-it.github.io/linux/perintah-dasar-linux/",
+      "author"   : "memet",
+      "date"     : "14 Apr 2022"
+    } ,
+  
+    {
+      "title"    : "Bash Shell",
+      "category" : "linux",
+      "tags"     : "linux, bash",
+      "url"      : "https://maling-it.github.io/linux/bash-shell/",
+      "author"   : "memet",
+      "date"     : "29 Mar 2022"
+    } ,
+  
+    {
+      "title"    : "Kompress HTML jekyll",
+      "category" : "jekyll",
+      "tags"     : "jekyll, kompres, html",
+      "url"      : "https://maling-it.github.io/jekyll/kompress-html-jekyll/",
+      "author"   : "memet",
+      "date"     : "28 Mar 2022"
+    } ,
+  
+    {
+      "title"    : "apa itu rEFInd?",
+      "category" : "linux",
+      "tags"     : "linux, refind, bootloader",
+      "url"      : "https://maling-it.github.io/linux/apa-itu-refind/",
+      "author"   : "memet",
+      "date"     : "27 Mar 2022"
+    } ,
+  
+    {
+      "title"    : "Sejarah Linux & Debian",
+      "category" : "linux",
+      "tags"     : "linux, sejarah",
+      "url"      : "https://maling-it.github.io/linux/sejarah-linux/",
+      "author"   : "memet",
+      "date"     : "24 Mar 2022"
+    } ,
+  
+    {
+      "title"    : "update post",
+      "category" : "html",
+      "tags"     : "html",
+      "url"      : "https://maling-it.github.io/html/update/",
+      "author"   : "memet",
+      "date"     : "03 Jan 2022"
+    } ,
+  
+    {
+      "title"    : "hallo",
+      "category" : "html",
+      "tags"     : "html",
+      "url"      : "https://maling-it.github.io/html/hallo/",
+      "author"   : "zxce3",
+      "date"     : "01 Jan 2022"
+    } 
+  
+]

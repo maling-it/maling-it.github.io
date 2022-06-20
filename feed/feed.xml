@@ -1,0 +1,162 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://maling-it.github.io/</id>
+  <title>MalingIT</title>
+  <subtitle>Website malingIT</subtitle>
+  <updated>2022-06-20T14:30:24+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://maling-it.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://maling-it.github.io/feed/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://maling-it.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2022  </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Pengenalan DBMS dan RDBMS</title>
+    <link href="https://maling-it.github.io/database/pengenalan-dbms-dan-rdbms/" rel="alternate" type="text/html" title="Pengenalan DBMS dan RDBMS" />
+    <published>2022-06-16T00:00:00+00:00</published>
+  
+    <updated>2022-06-16T00:00:00+00:00</updated>
+  
+    <id>https://maling-it.github.io/database/pengenalan-dbms-dan-rdbms/</id>
+    <content src="https://maling-it.github.io/database/pengenalan-dbms-dan-rdbms/" />
+    <author>
+      <name>memet</name>
+    </author>
+
+  
+    
+    <category term="database" />
+    
+  
+
+  
+    <summary>
+      (()=>{for(var e=document.querySelectorAll(".highlight"),t=document.querySelectorAll(".cpbtn"),c=document.querySelectorAll(".chn"),o=0;o<e.length;o++)e[o].id="code-block-"+o;for(o=0;o<t.length;o++)t[o].setAttribute("onclick","copyCode(this, 'code-block-"+o+"')");for(o=0;o<c.length;o++)c[o].setAttribute("onclick","change(this, 'code-block-"+o+"')")})();
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>belajar-golang</title>
+    <link href="https://maling-it.github.io/go/belajar-golang/" rel="alternate" type="text/html" title="belajar-golang" />
+    <published>2022-06-12T00:00:00+00:00</published>
+  
+    <updated>2022-06-12T00:00:00+00:00</updated>
+  
+    <id>https://maling-it.github.io/go/belajar-golang/</id>
+    <content src="https://maling-it.github.io/go/belajar-golang/" />
+    <author>
+      <name>tutu</name>
+    </author>
+
+  
+    
+    <category term="go" />
+    
+  
+
+  
+    <summary>
+      (()=>{for(var e=document.querySelectorAll(".highlight"),t=document.querySelectorAll(".cpbtn"),c=document.querySelectorAll(".chn"),o=0;o<e.length;o++)e[o].id="code-block-"+o;for(o=0;o<t.length;o++)t[o].setAttribute("onclick","copyCode(this, 'code-block-"+o+"')");for(o=0;o<c.length;o++)c[o].setAttribute("onclick","change(this, 'code-block-"+o+"')")})();
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Replikasi Database</title>
+    <link href="https://maling-it.github.io/database/replikasi-database/" rel="alternate" type="text/html" title="Replikasi Database" />
+    <published>2022-05-09T00:00:00+00:00</published>
+  
+    <updated>2022-05-09T00:00:00+00:00</updated>
+  
+    <id>https://maling-it.github.io/database/replikasi-database/</id>
+    <content src="https://maling-it.github.io/database/replikasi-database/" />
+    <author>
+      <name>memet</name>
+    </author>
+
+  
+    
+    <category term="database" />
+    
+  
+
+  
+    <summary>
+      (()=>{for(var e=document.querySelectorAll(".highlight"),t=document.querySelectorAll(".cpbtn"),c=document.querySelectorAll(".chn"),o=0;o<e.length;o++)e[o].id="code-block-"+o;for(o=0;o<t.length;o++)t[o].setAttribute("onclick","copyCode(this, 'code-block-"+o+"')");for(o=0;o<c.length;o++)c[o].setAttribute("onclick","change(this, 'code-block-"+o+"')")})();
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Perintah Dasar Terminal Linux</title>
+    <link href="https://maling-it.github.io/linux/perintah-dasar-linux/" rel="alternate" type="text/html" title="Perintah Dasar Terminal Linux" />
+    <published>2022-04-14T00:00:00+00:00</published>
+  
+    <updated>2022-04-14T00:00:00+00:00</updated>
+  
+    <id>https://maling-it.github.io/linux/perintah-dasar-linux/</id>
+    <content src="https://maling-it.github.io/linux/perintah-dasar-linux/" />
+    <author>
+      <name>memet</name>
+    </author>
+
+  
+    
+    <category term="linux" />
+    
+  
+
+  
+    <summary>
+      (()=>{for(var e=document.querySelectorAll(".highlight"),t=document.querySelectorAll(".cpbtn"),c=document.querySelectorAll(".chn"),o=0;o<e.length;o++)e[o].id="code-block-"+o;for(o=0;o<t.length;o++)t[o].setAttribute("onclick","copyCode(this, 'code-block-"+o+"')");for(o=0;o<c.length;o++)c[o].setAttribute("onclick","change(this, 'code-block-"+o+"')")})();
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Bash Shell</title>
+    <link href="https://maling-it.github.io/linux/bash-shell/" rel="alternate" type="text/html" title="Bash Shell" />
+    <published>2022-03-29T00:00:00+00:00</published>
+  
+    <updated>2022-03-29T00:00:00+00:00</updated>
+  
+    <id>https://maling-it.github.io/linux/bash-shell/</id>
+    <content src="https://maling-it.github.io/linux/bash-shell/" />
+    <author>
+      <name>memet</name>
+    </author>
+
+  
+    
+    <category term="linux" />
+    
+  
+
+  
+    <summary>
+      (()=>{for(var e=document.querySelectorAll(".highlight"),t=document.querySelectorAll(".cpbtn"),c=document.querySelectorAll(".chn"),o=0;o<e.length;o++)e[o].id="code-block-"+o;for(o=0;o<t.length;o++)t[o].setAttribute("onclick","copyCode(this, 'code-block-"+o+"')");for(o=0;o<c.length;o++)c[o].setAttribute("onclick","change(this, 'code-block-"+o+"')")})();
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
