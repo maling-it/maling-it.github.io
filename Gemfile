@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2.2"
 gem "webrick", "~> 1.7"
-gem "rouge", "~> 3.29"
+gem "rouge", "~> 3.30"
 gem "kramdown", "~> 2.4"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.16"
