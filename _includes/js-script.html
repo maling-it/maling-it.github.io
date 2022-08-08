@@ -18,3 +18,17 @@
 </script>  
 {% endif %}
     <!-- JS SCRIPT END -->
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    var searchRepoInputElem = document.getElementById("search-repo-input");
+    zxce3.keydownHandler = function(event) {
+      event = event || window.event;
+      if (!(document.querySelector("input:focus") || document.querySelector("textarea:focus") || document.querySelector("select:focus"))) {
+        if (event.which == 191) {
+          searchRepoInputElem.focus();
+          event.preventDefault();
+        }
+      }
+    }
+  });
+</script>

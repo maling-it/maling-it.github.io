@@ -86,22 +86,29 @@ Pada cara terdistribusi penuh, maka penanganan penguncian dilakukan pada tempat 
 
 Ada 4 metode replikasi yaitu :
 
-1. Snapshot
+1.Snapshot
+
 - Mencopy semua data dari ARTIKEL ke SUBSCRIBER
 - Mengabaikan data yang telah dimodifikasi di SUBSCRIBER (subscriber menjadi Read Only)
 - Network Bandwidth yang dibutuhkan sangat besar
 - Mudah implementasinya
 - Proses Copy Artikel terjadi dalam suatu waktu
-2. Transactional
+
+2.Transactional
+
 - Proses Copy Transaksi dari Artikel, dengan memanfaatkan Transaction Log milik Publication DB
 - Setiap perubahan data yang terjadi akan dicopy dulu ke Distributor, baru kemudian dicopy ke Subscriber
 - Lebih efisien daripada Snapshot Replication
 - Traffic Network menjadi minimal (krn butuh bandwidth kecil)
 - Real Time
-3. Transactional publication with updatable subscriptions
+
+3.Transactional publication with updatable subscriptions
+
 - Seperti Transactional Replication
 - Bedanya, Subscriber bisa juga mempublikasi ke Pusblisher
+
 4.Merge
+
 - Publisher & Subscriber berhak untuk melakukan Publikasi secara independen
 - Publisher bisa mempublikasikan datanya ke site-site yang lain
 - Subscriber bisa mempublikasikan datanya ke site-site yang lain

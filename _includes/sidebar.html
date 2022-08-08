@@ -2,6 +2,9 @@
     <div class="sidebar-overlay" onclick="zxce3.toggleSidebar()"></div>
     <div class="sidebar">
       <div class="sidebar-menu">
+        <div class="sidebar-content">
+          <input id="search-input" type="search" aria-label="search" autocomplete="off" class="form-control border form-control-lg bg-dark-dm bg-light-lm" placeholder="🔍 Cari disini" type="text" class="form-control" placeholder="Search">
+        </div>
         <h5 class="font-weight-bolder sidebar-title">Pages <a href="#" class="ml-5 text-decoration-none">#</a></h5>
         {% for page in site.pages limit:3 %}
         <a href="{{ page.url | relative_url }}" class="sidebar-link">{{ page.title | capitalize }}</a>        
@@ -15,22 +18,4 @@
         <br />
   <br />
 </div> 
-        <div class="sidebar-divider"></div>
-
-        <div class="sidebar-content">
-          <span class="text-center">
-<div class="share mt-15">
-  {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
-  {% assign url = page.url | absolute_url %}
-  {% for share in site.data.sharing.sidebar %}
-  {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
-    <a data-toggle="tooltip" data-placement="top" data-title="{{ share.type }}" target="_blank" rel="noopener" aria-label="{{ share.type }}" class="btn btn-square bg-dark-light-dm" href="{{ link }}"><i class="bi {{ share.icon }}"></i></a>
-{% endfor %}
-    <a data-toggle="tooltip" data-placement="top" data-title="Mode Theme" target="_blank" rel="noopener" aria-label="mode" class="btn btn-square bg-dark-light-dm" onclick="zxce3.toggleDarkMode()">
-      <i class="bi-moon-fill hidden-dm" aria-hidden="true"></i>
-      <i class="bi-sun-fill hidden-lm" aria-hidden="true"></i>
-    </a>
-</div>
-</span>
-        </div>
 </div>

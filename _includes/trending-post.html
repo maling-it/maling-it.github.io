@@ -1,5 +1,5 @@
 
-{% assign TOTAL_SIZE = 3 %}
+{% assign TOTAL_SIZE = 5 %}
 
 {% assign TAG_SCORE = 1 %}
 
@@ -72,15 +72,14 @@
 
 
 {% if index_list.size > 0 %}
-  <hr />
-  <div class="content">
+  <div class="content m-5 border-bottom">
     <h2 class="content-title">Trending Post</h2>
-  <div class="row">
+    <ul>
       {% for entry in index_list %}
       {% assign index = entry | plus: 0 %}
       {% assign p = site.posts[index] %}
-      {% include post-card.html %}
+      <li><a class="text-reset text-decoration-none" href="{{ p.url }}">{{ p.title }}</a></li>
       {% endfor %}
-  </div>
+    </ul>
   </div>
 {% endif %}

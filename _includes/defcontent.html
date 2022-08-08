@@ -13,27 +13,27 @@
 {% endif %}
 
 {% if _content contains '<h1' %}
-  {% assign _content = _content | | replace: '<h1', '<h1 class="ui border-bottom font-weight-bold" ' %}
+  {% assign _content = _content | | replace: '<h1', '<h1 class="font-size-24 content-title border-bottom" ' %}
 {% endif %}
 
 {% if _content contains '<h2' %}
-  {% assign _content = _content | | replace: '<h2', '<h2 class="ui border-bottom font-weight-bold" ' %}
+  {% assign _content = _content | | replace: '<h2', '<h2 class="content-title border-bottom" ' %}
 {% endif %}
 
 {% if _content contains '<h3' %}
-  {% assign _content = _content | | replace: '<h3', '<h3 class="ui border-bottom font-weight-bold" ' %}
+  {% assign _content = _content | | replace: '<h3', '<h3 class="content-title border-bottom" ' %}
 {% endif %}
 
 {% if _content contains '<h4' %}
-  {% assign _content = _content | | replace: '<h4', '<h4 class="ui border-bottom font-weight-bold" ' %}
+  {% assign _content = _content | | replace: '<h4', '<h4 class="content-title border-bottom" ' %}
 {% endif %}
 
 {% if _content contains '<h5' %}
-  {% assign _content = _content | | replace: '<h5', '<h5 class="ui border-bottom font-weight-bold" ' %}
+  {% assign _content = _content | | replace: '<h5', '<h5 class="content-title border-bottom" ' %}
 {% endif %}
 
 {% if _content contains '<h6' %}
-  {% assign _content = _content | | replace: '<h6', '<h6 class="ui border-bottom font-weight-bold" ' %}
+  {% assign _content = _content | | replace: '<h6', '<h6 class="content-title border-bottom" ' %}
 {% endif %}
 
 {% if _content contains '<ul>' %}

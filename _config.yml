@@ -4,8 +4,6 @@ email: your-email@example.com
 description: Website malingIT
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maling-it.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 comment: maling-it/maling-it.github.io
 # Build settings
 plugins:
@@ -14,7 +12,7 @@ plugins:
   
 kramdown:
   syntax_highlighter: rouge
-  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts:
     css_class: highlight
     # default_lang: console
     span:
@@ -23,10 +21,18 @@ kramdown:
       line_numbers: true
       start_line: 1
 
+toc:
+  max_level: 5 # default: 6
+  list_class: on-this-page-nav
+  item_class: m-0
+
 defaults:
-  -
-    scope:
-      path: '_posts'          # An empty string here means all files in the project
+  - scope:
+      path: ""
+    values:
+      toc: true
+  - scope:
+      path: '_posts'
       type: posts
     values:
       layout: post
@@ -39,7 +45,7 @@ defaults:
   -
     scope:
       path: '_pages'
-      type: pages             # see `site.collections`
+      type: pages
     values:
       layout: page
       permalink: /:title

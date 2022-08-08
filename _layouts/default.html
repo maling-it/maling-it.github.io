@@ -5,10 +5,12 @@ layout: compress
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id">
 {% include head.html %}
-<body class="dark-mode with-custom-webkit-scrollbars with-custom-css-scrollbars" data-set-preferred-mode-onload="true" >
+<body class="dark-mode with-custom-webkit-scrollbars with-custom-css-scrollbars" data-set-preferred-mode-onload="true" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" >
+	{% include sidebar-right.html %}
 	{% include search-result.html %}
-	<div class="page-wrapper with-sidebar with-transitions" data-sidebar-type="overlayed-all" data-sidebar-hidden="hidden">
+	<div class="page-wrapper with-sidebar with-navbar with-transitions" data-sidebar-type="overlayed-sm-and-down">
 	{% include sidebar.html %}
+	{% include navbar.html %}
 		{% include sticky-alert.html %}
 		{{ content }}
 	</div>
