@@ -1,6 +1,6 @@
-<div class="modal modal-full ie-scroll-fix" id="toc" tabindex="-1" role="dialog">
+<div class="modal modal-full ie-scroll-fix" id="sr" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
-    <div class="modal-content w-full position-absolute right-0" style="width: 70% !important">
+    <div class="modal-content bg-dark-dm bg-light-lm h-auto w-full position-absolute right-0" style="width: 70% !important">
       <a href="#" class="close" role="button" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </a>
@@ -11,16 +11,6 @@
       {% else %}
         {% toc %}
       {% endif %}
-      <ul>
-      {% for p in site.posts %}
-        <li>{{ p.title }}</li>
-      {% endfor %}
-      </ul>
-      <ul>
-      {% for p in site.posts %}
-        <li>{{ p.title }}</li>
-      {% endfor %}
-      </ul>
               <div class="sidebar-divider"></div>
 
         <div class="sidebar-content">
@@ -32,10 +22,6 @@
   {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
     <a data-toggle="tooltip" data-placement="top" data-title="{{ share.type }}" target="_blank" rel="noopener" aria-label="{{ share.type }}" class="btn btn-square bg-dark-light-dm" href="{{ link }}"><i class="bi {{ share.icon }}"></i></a>
 {% endfor %}
-    <a data-toggle="tooltip" data-placement="top" data-title="Mode Theme" target="_blank" rel="noopener" aria-label="mode" class="btn btn-square bg-dark-light-dm" onclick="zxce3.toggleDarkMode()">
-      <i class="bi-moon-fill hidden-dm" aria-hidden="true"></i>
-      <i class="bi-sun-fill hidden-lm" aria-hidden="true"></i>
-    </a>
 </div>
 </span>
         </div>

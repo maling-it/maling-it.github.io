@@ -7,14 +7,12 @@ layout: compress
 {% include head.html %}
 <body class="dark-mode with-custom-webkit-scrollbars with-custom-css-scrollbars" data-set-preferred-mode-onload="true" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" >
 	{% include sidebar-right.html %}
-	{% include search-result.html %}
 	<div class="page-wrapper with-sidebar with-navbar with-transitions" data-sidebar-type="overlayed-sm-and-down">
 	{% include sidebar.html %}
 	{% include navbar.html %}
 		{% include sticky-alert.html %}
 		{{ content }}
 	</div>
-	{% include search-loader.html %}
 	{% include js-script.html %}
 </body>
 </html>

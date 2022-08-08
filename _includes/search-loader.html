@@ -1,16 +1,9 @@
 {% capture result_elem %}
-  <div class="col-12 col-md-6 col-lg-4">
-      <a href="{url}" class="cs-zx bg-dark-dm bg-light-lm h-100 text-decoration-none border text-dark-lm text-white-dm">
-          <span class="zc-button mr-5 c-{category}">
-          </span>
-          <hr>
-          <span class="text-center d-inline-block font-size-16 w-full">{title}</span>
-      </a>
-  </div>
+  <a class="sidebar-link" href="{url}"><span class="text-success">#</span> {title}</a>
 {% endcapture %}
 
 
-{% capture not_found %}<p class="mt-5 text-center">Oops! No result founds.</p>{% endcapture %}
+{% capture not_found %}<a class="sidebar-link text-muted"><span class="text-danger">Oops!</span> Tidak ditemukan.</a>{% endcapture %}
 
 <script src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/js/jss.min.js"></script>
 <script>
