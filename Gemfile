@@ -9,6 +9,8 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-paginate-v2"
   gem 'jekyll-seo-tag', '~> 2.8'
+  gem "jekyll-toc", "~> 0.17.1"
+  # gem "jekyll-i18n", "~> 1.0"
   # gem "jekyll-admin"
 end
 
