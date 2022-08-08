@@ -1,6 +1,6 @@
 <nav class="navbar shadow-lg">
   <div class="navbar-content ml-5">
-            <button class="btn border-0 mr-5 navbar-menu-btn" onclick="zxce3.toggleSidebar()" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-square bg-dark-light-dm mr-5" onclick="zxce3.toggleSidebar()" aria-haspopup="true" aria-expanded="false">
                 <i class="bi bi-layout-sidebar-inset"></i>
             </button>
   </div>
@@ -10,8 +10,7 @@
         </a>
 
     <div class="navbar-content ml-auto">
-      <!-- <a href="#search-modal" class="btn mr-5" aria-label="search-btn" type="button"><i class="bi-search"></i></a> -->
-            <a href="#toc" class="hidden-md-and-up btn bg-transparent border-0 mr-5 navbar-menu-btn">
+            <a onclick="zxce3.toggleModal('sr')" class="hidden-md-and-up btn btn-square  bg-dark-light-dm mr-5 navbar-menu-btn">
               <i class="bi bi-justify-right"></i>
             </a>
               {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
