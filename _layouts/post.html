@@ -2,88 +2,69 @@
 layout: default
 ---
 <div class="content-wrapper zxbg">
-{% include navbar.html %}
-
+<div class="container-fluid">
+<div class="container-lg h-full">
     <div id="top"></div>
-      <!-- Container-fluid -->
-      <div class="container-fluid">
-        <!-- First comes a content container with the main title -->
-            <div class="container-lg h-full">
-                <div class="row h-full">
-                    <div class="col-md-10 offset-md-1">
-                    <div id="content" class="content mt-0">
-                        <div class="card mt-5 border text-center m-0">
-                        <h1 role="heading" aria-level="1" class="text-center font-weight-bold font-size-24 entry-title content-title">{{ page.title }}</h1>
-                        <hr/>
-                             <span class="text-center ml-0">
-                                <i class="bi bi-calendar-event mr-5"></i> {{ page.date | date_to_string }} - <i class="bi bi-person"></i> {{ page.author | capitalize }}
-                            </span>
-                            <hr/>
-                            <span class="text-center">
-                        {% for tg in page.tags %}
-                        <a class="badge" href="{{ site.url }}/tags/{{tg}}">#{{ tg }}</a>
-                            {% endfor %}
-                            </span>
-                      </div>
-                      <div class="post-content">
-                  {% include defcontent.html content=content %}                                  
-                      </div>                          
-                </div>
-                <hr/>
-                <span class="text-center">
-                {% include sharing.html %}
-                </span>
-                      {% assign author = site.data.author[page.author] %}
-                        {% if author %}
-                        <div class="col-12">
-                        <span class="card m-5 ats-card bg-transparent mw-full m-0 p-0 d-flex">
-                            <div class="w-60 h-60 m-10 align-self-center">
-                                <img src="{{ author.img }}" class="d-block w-60 h-60 rounded-circle" alt="image {{ author.name }}">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card border-0 bg-light-lm p-0">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div id="content" class="content">
+                    <h1 role="heading" aria-level="1" class="text-center font-weight-bold font-size-24 entry-title content-title">{{ page.title }}</h1>
+                             <div class="text-center ml-0">
+                                <i class="bi bi-calendar-event mr-5"></i> {{ page.date | date_to_string }} - <a class="text-reset text-decoration-none" href="{{ '/info' | relative_url }}/{{ page.author }}"><i class="bi bi-person"></i> {{ page.author | capitalize }}</a>
+                                {% include sharing.html %}
                             </div>
-                            <div class="flex-grow-1 d-flex align-items-center">
-                                <div class="p-10 w-full m-auto">
-                                    <p class="m-0 mt-5 text-muted font-size-12">
-                                        {{ site.data.label.writtenby | default: 'ditulis' }}
-                                    </p>
-                                    <p rel="author" title="Posts by {{ author.name | capitalize }}" class="m-0 font-weight-medium font-size-16 text-dark-lm text-light-dm">
-                                        {{ author.name | capitalize }}
-                                    </p>
-                                    <a href="{{ '/info/' | relative_url }}{{ author.name }}" class="m-0 mt-5 text-muted font-size-12">
-                                        Lihat profil 
-                                    </a>
+                                <hr class="border-bottom">
+                                    <div class="post-content">
+                                      <div class="content border-bottom hidden-lg-and-up">
+                                        <h2 class="content-title">Table of content</h2>
+                                        {% toc %}
+                                      </div>
+                                      <div class="content">
+                                      {% include defcontent.html content=content %}
+                                          
+                                      </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="card m-0 border-0 shadow-lg">
+                                <script src="https://giscus.app/client.js"
+        data-repo="maling-it/maling-it.github.io"
+        data-repo-id="R_kgDOHB1aJQ"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOHB1aJc4CQslG"
+        data-mapping="title"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="transparent_dark"
+        data-lang="id"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+                                {% include navigate.html %}
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="content position-lg-sticky top-lg-0 left-lg-0 py-card my-0">
+                                      <div class="content m-5 border-bottom hidden-md-and-down">
+                                        <h2 class="content-title">Table of content</h2>
+                                        {% toc %}
+                                      </div>
+                                    {% include trending-post.html %}
+                                    {% include trending-tags.html %}
                                 </div>
                             </div>
-                        </span>
+                            <!-- end -->
                         </div>
-                        {% endif %}
-                        <hr/>
-                        <div class="col-12">
-                            <details class="collapse-panel border-0 mw-full mt-20">
-                                <summary class="collapse-header without-arrow">
-                                  <span class="hidden-collapse-open text-muted"><i class="bi bi-chat"></i></span>
-                                  <span class="hidden-collapse-closed text-muted"><i class="bi bi-chat-dots"></i></span>
-                                  <span class="ml-5">Komentar</span> <!-- ml-5 = margin-left: 0.5rem (5px) -->
-                                </summary>
-                                <div class="collapse-content p-0 border-0 shadow-lg">
-                                    <span class="card m-5 hidden-lm ats-card bg-transparent mw-full m-0 p-0 d-flex">
-                                        <script src="https://utteranc.es/client.js" repo="{{ site.comment }}" issue-term="title" label="Comment" theme="dark-blue"
-                                            crossorigin="anonymous" async>
-                                            </script>
-                                    </span>
-                                    <span class="card m-5 hidden-dm ats-card mw-full m-0 p-0 d-flex">
-                                        <script src="https://utteranc.es/client.js" repo="{{ site.comment }}" issue-term="title" label="Comment" theme="github-light"
-                                            crossorigin="anonymous" async>
-                                            </script>
-                                    </span>                                
-                                </div>
-                              </details>
-                        </div>
-                        {% include trending-post.html %}
-                        {% include navigate.html %}
-                        {% include footer.html %}
-
+                    </div>
                 </div>
             </div>
-      </div>
+                    {% include footer.html %}
+
+        </div>
   </div>
 </div>
