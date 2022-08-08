@@ -21,21 +21,10 @@ const resource = [
   '{{ js_path }}/post.js',
   '{{ "/app.js" | relative_url }}',
   '{{ "/sw.js" | relative_url }}',
-  'https://utteranc.es/client.js',
+  'https://giscus.app/client.js',
 
   /* --- HTML --- */
-  '{{ "/index.html" | relative_url }}',
   '{{ "/404.html" | relative_url }}',
-  
-  /* --- Pages --- */
-  {% for pag in site.pages %}
-    '{{ pag.url | relative_url }}',
-  {% endfor %}
-  /* --- Author --- */
-  {% for at in site.auth %}
-    '{{ at.url | relative_url }}',
-  {% endfor %}
-
 
   /* --- Favicons --- */
   {% assign favicon_path = "/assets/favicons" | relative_url %}
