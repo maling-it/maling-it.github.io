@@ -1,4 +1,13 @@
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+ margin:0 0 0 0.5rem !important; 
+}
 
+li{
+  margin-bottom: 0rem !important;
+}
 .ms{
     margin: -2rem 0rem !important;
     cursor: not-allowed;
