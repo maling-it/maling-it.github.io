@@ -1,6 +1,6 @@
 ---
 permalink: /404.html
-layout: default
+layout: 404
 title: 404
 ---
 
@@ -10,9 +10,26 @@ title: 404
     max-width: 600px;
     text-align: center;
   }
+.sip {
+  animation: 2s alternate slidein;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
   h1 {
     margin: 30px 0;
-    font-size: 4em;
+    font-size: 20rem;
     line-height: 1;
     letter-spacing: -1px;
   }
@@ -21,10 +38,14 @@ title: 404
 }
 </style>
 
-<div class="container">
-  <h1>404</h1>
-
+<div id="top" class="content-wrapper zxbg">
+      <div class="container">
+      <div class="container-lg h-full">
+  <h1>4<span class="sip">0</span>4</h1>
   <p class="font-weight-bolder"><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
   <p class="text-center"><a href="{{ site.url }}" class="btn">Back to Home</a></p>
-</div>
+
+      </div>
+    </div>
+  </div>
