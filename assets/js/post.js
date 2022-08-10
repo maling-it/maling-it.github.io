@@ -13,7 +13,7 @@ function copyCode(elem, containerId) {
 
     // Hide confirmation
     setTimeout(function() {
-        elem.innerHTML = "<i class='bi bi-clipboard' aria-hidden='true'></i> Copy";
+        elem.innerHTML = "<i class='bi bi-clipboard-check' aria-hidden='true'></i>";
     }, 2000);
 
     // Built-in function
@@ -35,10 +35,10 @@ for (var i = 0; i < codeBl.length; i++)
 for (var i = 0; i < cpbtn.length; i++)
     cpbtn[i].setAttribute("onclick", "copyCode(this, 'code-block-" + i + "')");
 
-    function prints(content) {
-        var printContents = document.getElementById(content).innerHTML;
-        w=window.open();
-        w.document.write(printContents);
-        w.print();
-        w.close();
-    }
+function prints(content) {
+    var printContents = document.getElementById(content).innerHTML;
+    w=window.open();
+    w.document.write(printContents);
+    w.print();
+    w.close();
+}
