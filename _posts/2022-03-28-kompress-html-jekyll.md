@@ -5,26 +5,28 @@ author: memet
 tags: jekyll kompres html 
 ---
 
-Sama seperti CSS dan JavaScript, output HTML dapat dikompresi dan diperkecil dengan menghapus spasi, baris baru, komentar, dan bahkan menghapus tag penutup opsional tertentu, membuat ukuran file menjadi lebih kecil. 
+Sama seperti CSS dan JavaScript, output HTML dapat dikompresi dan diperkecil dengan menghapus spasi, baris baru, komentar, dan bahkan menghapus tag penutup opsional tertentu, membuat ukuran file menjadi lebih kecil.
 
 Lihat sumber halaman ini misalnya untuk melihat hasil kompresi tersebut. Dengan Jekyll, sebuah plugin bernama [jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html) membantu Anda melakukan hal itu. Plugin ini menggunakan sintaks Liquid murni untuk menyelesaikan kompresi HTML, sehingga tidak bergantung pada apa pun.
 
 ## Instalasi
+
 Mulailah dengan plugin dalam dua langkah sederhana:
 
 - Unduh dan ekstrak plugin `compress.html` file dan letakkan di `_layouts` folder setup Jekyll Anda.
 - Di plugin utama, biasanya `default.html` , tambahkan Front Matter berikut:
 
-{% highlight yaml %}
+```yaml
 ---
 layout: compress
 ---
-{% endhighlight %}
+```
 
 ## Penggunaan
-Sekarang setelah plugin dipasang dan disiapkan, Anda dapat mengonfigurasi plugin tersebut di `_config.yml`. Sebagai contoh: 
 
-{% highlight yaml %}
+Sekarang setelah plugin dipasang dan disiapkan, Anda dapat mengonfigurasi plugin tersebut di `_config.yml`. Sebagai contoh:
+
+```yaml
 compress_html:
   clippings: all
   comments: [""]
@@ -33,7 +35,7 @@ compress_html:
   blanklines: false
   ignore:
     envs: []
-{% endhighlight %}
+```
 
 Dan inilah rincian singkat dari opsi konfigurasi:
 
