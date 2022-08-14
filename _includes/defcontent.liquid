@@ -40,80 +40,31 @@
   {% assign _content = _content | | replace: '<ul>', '<ul class="ui list">' %}
 {% endif %}
 
-{% if _content contains '<pre class="highlight">' %}
+{% if _content contains '<div class="highlight">' %}
   {% capture winds %}
-  {% include button-fixed.html %}
-  <div class="highlight"><code 
-{% endcapture %}
-  {% assign _content = _content
-    | replace: '<div class="highlight"><pre class="highlight"><code', winds
-    | replace: '</code></pre></div>', '</code></div>'
+  <div class="code-container">
+    {% include copy-button.liquid %}
+    <div class="highlight shadow-lg">
+      {% endcapture %}
+      {% assign _content = _content
+      | replace: '<div class="highlight">', winds
+      | replace: '</pre></div>', '</pre></div></div>'
   %}
-{% endif %}
+  {% endif %}
 
-{%- if _content contains '<nvc>' -%}
-  {%- capture nvcic -%}
-  <div class="card p-0 m-0 shadow-lg ">
-    <div class="content m-0 docs-cards-container">
-  {%- endcapture -%}
-  {%- capture nvcid -%}
-</div>
-</div>
-{%- endcapture -%}
-  {%- assign _content = _content 
-    | replace: '<nvc>', nvcic
-    | replace: '</nvc>', nvcid
-    -%}
-{%- endif -%}
-
-{%- if _content contains '<nvct>' -%}
-  {%- capture nvcit -%}
-  <div class="navbar-container">
-    <div class="navbar bg-light-lm bg-dark-light-dm">
-        <span class="navbar-text text-monospace">
-  {%- endcapture -%}
-  {%- capture nvcitd -%}
-</span>
-</div>
-</div>
-{%- endcapture -%}
-  {%- assign _content = _content 
-    | replace: '<nvct>', nvcit
-    | replace: '</nvct>', nvcitd
-    -%}
-{%- endif -%}
-
-{%- if _content contains '<ct>' -%}
-  {%- capture ct1 -%}
-  <div class="content m-0 mt-5">
-  {%- endcapture -%}
-  {%- capture ct2 -%}
-</div>
-{%- endcapture -%}
-  {%- assign _content = _content 
-    | replace: '<ct>', ct1
-    | replace: '</ct>', ct2
-    -%}
-{%- endif -%}
-
-
-{% if _content contains '<figure class="highlight">' %}
-    {% capture winds %}
-  {% include button-fixed.html %}
-<figure class="highlight">
+{% if _content contains '<figure class="highlight">' %}  
+{% capture winds %}
+  <div class="code-container">
+  {% include copy-button.liquid %}
+  <div class="highlight shadow-lg">
 {% endcapture %}
   {% assign _content = _content 
   | replace: '<figure class="highlight">', winds
+  | replace: '</pre></figure>', '</pre></div></div>'
     %}
 {% endif %}
 
-{% if _content contains '<li class="task-list-item"><' %}
-  {% assign _content = _content
-    | replace: '"task-list-item"><', '"task-list-item sidebar-link" hide-bullet><'
-  %}
-{% endif %}
-
-{% if _content contains '<ul><li>' %}
+{% if _content contains '<li>' %}
   {% assign _content = _content
     | replace: '<li>', '<li class="task-list-item">'
   %}

@@ -14,14 +14,16 @@
   <!-- SEO -->
   {% seo title=false %}
   <!-- Favicon -->
-  {% include favicons.html %}
+  {% include favicons.liquid %}
   <title>
     {% if page.layout == 'home' %}
     {{ site.title }}
-    {% elsif page.layout == 'page' or page.layout == 'post' or page.layout == 'tool' or page.layout == 'author' %}
-    {{ page.title  | append: " | " | capitalize }}{{ site.title }}
+    {% elsif page.layout == 'page' or page.layout == 'learn' or page.layout == 'post' or page.layout == 'tool' or
+    page.layout == 'author' %}
+    {{ page.title | append: " | " | capitalize }}{{ site.title }}
     {% elsif page.layout == 'category' %}
-    {{ page.title  | append: " | " | prepend: "post " | replace: 'js', 'javascript' | replace: 'nodejavascript', 'nodejs' | capitalize }}{{ site.title }}
+    {{ page.title | append: " | " | prepend: "post " | replace: 'js', 'javascript' | replace: 'nodejavascript', 'nodejs'
+    | capitalize }}{{ site.title }}
     {% endif %}
   </title>
   {% assign sit = site.url %}
@@ -30,13 +32,14 @@
   <link rel="stylesheet" type="text/css" href="{{ sit }}{{ '/assets/css/component.css'  }}">
   <link rel="stylesheet" type="text/css" href="{{ sit }}{{ '/assets/css/hm.css'  }}">
   <link rel="stylesheet" type="text/css" href="{{ sit }}{{ '/assets/css/landing.css'  }}">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
   {% if page.layout == "page" or "post" %}
   <link rel="stylesheet" type="text/css" href="{{ sit }}{{ '/assets/css/page.css'  }}">
   <link rel="stylesheet" type="text/css" href="{{ sit }}{{ '/assets/css/syntax.css'  }}">
   {% endif %}
   {% if page.layout == "redirect" %}
-  <link rel="canonical" href="{{ page.redirect_to }}"/>
+  <link rel="canonical" href="{{ page.redirect_to }}" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="refresh" content="0;url={{ page.redirect_to }}" />
   {% endif %}

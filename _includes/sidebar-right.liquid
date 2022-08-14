@@ -1,0 +1,38 @@
+{% capture page_content %}
+{% for section in page.sections %}
+{% capture section_include %}{% include {{ section }} %}{% endcapture %}
+<div data-source="{{ section }}">
+  {{ section_include | markdownify }}
+</div>
+{% endfor %}
+{{ content }}
+{% endcapture %}
+<div class="modal modal-full ie-scroll-fix" id="sr" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content bg-dark-dm bg-light-lm h-auto w-full position-absolute right-0"
+      style="width: 70% !important">
+      <a href="#" class="close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <div class="container">
+        <h5 class="modal-title">Konten</h5>
+        {% include toc.liquid html=page_content h_max=2 class="on-this-page-nav" item_class="ui_live_toc_%level%" %}
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-content">
+          <span class="text-center">
+            <div class="share mt-15">
+              {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
+              {% assign url = page.url | absolute_url %}
+              {% for share in site.data.sharing.sidebar %}
+              {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
+              <a data-toggle="tooltip" data-placement="top" data-title="{{ share.type }}" target="_blank" rel="noopener"
+                aria-label="{{ share.type }}" class="btn btn-square bg-dark-light-dm" href="{{ link }}"><i
+                  class="bi {{ share.icon }}"></i></a>
+              {% endfor %}
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

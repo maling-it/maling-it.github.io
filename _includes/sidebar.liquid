@@ -1,0 +1,28 @@
+<div class="sidebar-overlay" onclick="zxce3.toggleSidebar()"></div>
+<div class="sidebar bg-dark-dm bg-light-lm">
+  <div class="sidebar-menu">
+    <div class="sidebar-content">
+      <input id="search-input" type="search" aria-label="search" autocomplete="off" class="form-control border"
+        placeholder="🔍 Cari disini" type="text" class="form-control" placeholder="Search">
+    </div>
+    <div id="search-results"></div>
+    <h5 class="sidebar-title font-weight-bolder">Mulai</h5>
+    <div class="sidebar-divider"></div>
+
+    {% for pg in site.pages | limit:3 %}
+    <a class="sidebar-link" href="{{ pg.url }}">{{ pg.title }}</a>
+    {% endfor %}
+    <div class="sidebar-divider"></div>
+    {% if page.layout == 'learn' %}
+    <h5 class="sidebar-title font-weight-bolder">Belajar {{ page.category | capitalize }}</h5>
+    {% assign cat-group = site.learn | group_by: page.category | sort: "name" %}
+    {% for group in cat-group %}
+    {% for item in group.items %}
+    <a class="sidebar-link" href="{{ item.url | relative_url }}"><span class="text-primary">#</span> {{ item.title |
+      capitalize }}</a>
+    {%endfor%}
+    {%endfor%}
+    {% endif %}
+  </div>
+</div>
+{% include search-loader.liquid %}

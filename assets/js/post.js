@@ -1,5 +1,5 @@
 
-    // Copies code to the clipboard
+// Copies code to the clipboard
 function copyCode(elem, containerId) {
     // Copy code to clipboard
     var range = document.createRange();
@@ -12,21 +12,21 @@ function copyCode(elem, containerId) {
     elem.innerHTML = "<i class='bi bi-clipboard-check' aria-hidden='true'></i> Copied!";
 
     // Hide confirmation
-    setTimeout(function() {
-        elem.innerHTML = "<i class='bi bi-clipboard-check' aria-hidden='true'></i>";
-    }, 2000);
+    setTimeout(function () {
+        elem.innerHTML = "<i class='bi bi-clipboard' aria-hidden='true'></i>";
+    }, 5000);
 
     // Built-in function
     zxce3.initStickyAlert({
-      title: "Success copy",
-      alertType: "alert-success",
-      fillType: "filled",
-      hasDismissButton: true,
-      timeShown: 5000
+        title: "Success copy",
+        alertType: "alert-success",
+        fillType: "filled",
+        hasDismissButton: true,
+        timeShown: 5000
     });
 };
 // Set code-block
-var codeBl = document.querySelectorAll('.highlight');
+var codeBl = document.querySelectorAll('.code-container');
 var cpbtn = document.querySelectorAll('.cpbtn');
 // Set Id
 for (var i = 0; i < codeBl.length; i++)
@@ -37,7 +37,7 @@ for (var i = 0; i < cpbtn.length; i++)
 
 function prints(content) {
     var printContents = document.getElementById(content).innerHTML;
-    w=window.open();
+    w = window.open();
     w.document.write(printContents);
     w.print();
     w.close();

@@ -9,17 +9,12 @@ comment: maling-it/maling-it.github.io
 plugins:
   - jekyll-feed
   - jekyll-archives
-  
+markdown: kramdown
 kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
-    # default_lang: console
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: false
 
 toc:
   max_level: 5 # default: 6
@@ -63,6 +58,12 @@ defaults:
     values:
       layout: author
       permalink: /info/:slug/
+  -
+    scope:
+      path: '_learning'
+      type: learn
+    values:
+      layout: learn
 
 collections:
   tools:
@@ -74,6 +75,10 @@ collections:
   auth:
     output: true
     sort_by: order
+  learn:
+    output: true
+    permalink: /belajar/:categories/:title/
+
 
 sass:
   dir: '_sass'

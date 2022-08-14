@@ -5,6 +5,110 @@ ul ul {
  margin:0 0 0 0.5rem !important; 
 }
 
+ul.list-inline {
+  padding: 0;
+}
+ul.list-inline li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+ul.dash-list {
+  list-style: none;
+}
+ul.dash-list li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
+}
+ul.no-bullets-list {
+  list-style: none;
+  padding: 0;
+}
+ul.image-bullets-list {
+  list-style-image: url('https://www.w3schools.com/cssref/sqpurple.gif');
+}
+ul.bullets-list-in {
+  list-style: none;
+  padding: 0;
+}
+ul.bullets-list-in li {
+  padding: 0 0 0 40px;
+}
+ul.bullets-list-in li:before {
+  display: inline-block;
+  content: "•";
+  width: 1em;
+  margin-left: -1em;
+  font-weight: bold;
+}
+
+/*checkbox*/
+.task-list{
+  list-style: disclosure-closed !important;
+}
+
+.task-list-item-checkbox{
+  margin-right: 1rem;
+}
+
+/*Toc*/
+.toc_container {
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.toc_container li, .toc_container ul, .toc_container ul li{
+    list-style: outside none none !important;
+}
+/* code container */
+.code-container,
+.dark-mode .code-container {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.code-container .copy-button,
+.dark-mode .code-container .copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 5;
+}
+/* Code */
+.hljs {
+  background-color: rgba(0, 0, 0, 0.025);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .hljs {
+  background-color: #111417;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 769px) {
+  .with-custom-css-scrollbars .hljs {
+    scrollbar-color: rgba(0, 0, 0, 0.25) #f7f7f7;
+  }
+
+  .dark-mode.with-custom-css-scrollbars .hljs {
+    scrollbar-color: rgba(255, 255, 255, 0.25) #111417;
+  }
 li{
   margin-bottom: 0rem !important;
 }
@@ -33,7 +137,12 @@ a.card:hover{
     background-color: #c1f1ff8c !important;
     transform: translateY(5%);
 }
-
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 1.5rem 0px 1.5rem 1rem !important;
+}
 /* Sidenav */
 ul.on-this-page-nav{
   list-style: none !important;
@@ -178,28 +287,22 @@ blockquote p {
 .c-html{
   background-color: #000 linear-gradient(135deg,#35A875 10px,rgba(94, 55, 55, 0.01) 0);
 }
-.c-angular,
-.ng {
+.c-angular{
  background-color:#DD0031 !important;
 }
-.c-ionic,
-.ionic {
+.c-ionic{
  background-color:#4B8DFB !important;
 }
-.c-typescript,
-.typescript {
+.c-typescript{
  background-color:#007ACC !important;
 }
-.c-css,
-.css {
+.c-css{
  background-color:#3399FE !important;
 }
-.c-js,
-.js {
+.c-js{
  background-color:#F7DF1E !important;
 }
-.c-html,
-.web-components {
+.c-html{
  background-color:#F16528 !important;
 }
 .c-sass {
@@ -208,15 +311,13 @@ blockquote p {
 .c-svg {
  background-color:#FF9900 !important;
 }
-.c-vuejs,
-.vuejs {
+.c-vuejs{
  background-color:#41B883 !important;
 }
 .c-jekyll {
  background-color:#D20000 !important;
 }
-.c-react,
-.react {
+.c-react{
  background-color:#61dafb !important;
 }
 .c-graphql {
@@ -225,8 +326,7 @@ blockquote p {
 .c-flow {
  background-color:#E8BD36 !important;
 }
-.c-nodejs,
-.nodejs {
+.c-nodejs{
  background-color:#336633 !important;
 }
 .c-rxjs {
@@ -248,8 +348,7 @@ blockquote p {
 .c-gatsbyjs {
  background-color:rebeccapurple !important;
 }
-.c-svelte,
-.svelte {
+.c-svelte{
  background-color:#FF3E00 !important;
 }
 .c-flutter {

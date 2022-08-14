@@ -10,6 +10,7 @@ help:
 	@echo "    status    Display status before push"
 	@echo "    build     Build the test site"
 	@echo "    server    Make a livereload jekyll server to development"
+	@echo "	   s	Make a jekyll server to development without livereload"
 
 
 install:
@@ -27,3 +28,5 @@ build:
 
 server:
 	@bundle exec jekyll server --safe --livereload
+s:
+	@bundle exec jekyll server --safe

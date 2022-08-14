@@ -11,6 +11,6 @@ layout: page
 <div class="row">
       {% assign post_long_df = site.data.date_format.post.long | default: '%b %e, %Y' %}
           {% for p in page.posts %}
-          {% include post-card.html %}
+          {% include post-card.liquid %}
       {% endfor %}
 </div>
