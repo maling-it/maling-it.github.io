@@ -1,6 +1,6 @@
 @import url();
-html body{
-  font-family: Ubuntu !important;
+body{
+  font-family: Ubuntu;
 }
 ol ol,
 ol ul,
