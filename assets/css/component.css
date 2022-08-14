@@ -1,13 +1,3 @@
-@import url();
-body{
-  font-family: Ubuntu;
-}
-ol ol,
-ol ul,
-ul ol,
-ul ul {
- margin:0 0 0 0.5rem !important; 
-}
 
 ul.list-inline {
   padding: 0;
@@ -113,8 +103,6 @@ ul.bullets-list-in li:before {
   .dark-mode.with-custom-css-scrollbars .hljs {
     scrollbar-color: rgba(255, 255, 255, 0.25) #111417;
   }
-li{
-  margin-bottom: 0rem !important;
 }
 .ms{
     margin: -2rem 0rem !important;
@@ -386,7 +374,7 @@ blockquote p {
 .logo img{
   height: 7rem !important;
   width: 7rem !important;
-	margin-top: 3rem !important;
+  margin-top: 3rem !important;
 }
 @media (max-width: 577px) {
 .logo img{
@@ -529,6 +517,10 @@ ol.ui.list.upper-roman {
 ol.ui.list.upper-roman li:before {
   counter-increment: list;
   content: counter(list, upper-roman);
+}
+
+body{
+  font-family: monospace;
 }
 
 .cd-list{
@@ -740,73 +732,73 @@ ol.ui.list.upper-roman li:before {
   stroke: #767878 !important;
 }
 .cr {
-	position: relative;
+  position: relative;
 
-	height: 170px;
-	/* background: url("https://image.freepik.com/free-vector/colorful-gradient-liquid-shapes-background_23-2148250143.jpg"),	#ffffff; */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-radius: 25px;
-	margin: 10px;
-	transition: 0.25s ease-in;
+  height: 170px;
+  /* background: url("https://image.freepik.com/free-vector/colorful-gradient-liquid-shapes-background_23-2148250143.jpg"), #ffffff; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  margin: 10px;
+  transition: 0.25s ease-in;
 }
 
 .cr .overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 100%;
-	height: 170px;
-	background: linear-gradient(
-		120.55deg,
-		rgba(39, 39, 39, 0.38) 0%,
-		rgba(39, 39, 39, 0.2394) 100%
-	);
-	border-radius: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 170px;
+  background: linear-gradient(
+    120.55deg,
+    rgba(39, 39, 39, 0.38) 0%,
+    rgba(39, 39, 39, 0.2394) 100%
+  );
+  border-radius: 25px;
 }
 
 .cr .content {
-	position: absolute;
-	bottom: 10px;
-	left: 25px;
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
 }
 
 .cr .content h4 {
-	font-family: Ubuntu;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	/* color: #f2f2f2; */
-	margin-bottom: 10px;
-	margin-top: 0;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  /* color: #f2f2f2; */
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .cr .content h6 {
-	font-family: Ubuntu;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	/* color: #f2f2f2; */
-	margin-bottom: 10px;
-	margin-top: 0;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* color: #f2f2f2; */
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .cr .fav {
-	position: absolute;
-	top: 25px;
-	right: 25px;
-	cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
 }
 
 /* .cr .fav i {
-	color: white;
+  color: white;
 } */
 
 .cr:hover {
-	transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .cr:hover {
-	background-position: top;
+  background-position: top;
 }
