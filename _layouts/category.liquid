@@ -1,0 +1,16 @@
+---
+layout: page
+---
+<div id="page-category" class="content">
+  <h1 class="content-title">
+    <i class="fa fa-folder-open text-muted"></i>
+    {{ page.title | replace: 'js', 'javascript' | replace: 'nodejavascript', 'nodejs' }}
+    <span class="lead badge text-muted pl-2">{{ page.posts | size }}</span>
+  </h1>
+</div>
+<div class="row">
+      {% assign post_long_df = site.data.date_format.post.long | default: '%b %e, %Y' %}
+          {% for p in page.posts %}
+          {% include post-card.liquid %}
+      {% endfor %}
+</div>

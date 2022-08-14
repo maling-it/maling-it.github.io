@@ -1,0 +1,21 @@
+---
+layout: page
+---
+<div id="content">
+  <h1 class="content-title">
+    <nav aria-label="Breadcrumb navigation">
+      <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ site.url }}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ site.url }}/tags">Tags</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="#">{{ page.title | capitalize }} -> {{ page.posts | size }} </a></li>
+      </ul>
+    </nav>
+  </h1>
+  <div class="row">
+    {% assign post_long_df = site.data.date_format.post.long | default: '%b %e, %Y' %}
+
+    {% for p in page.posts %}
+    {% include post-card.liquid %}
+    {% endfor %}
+  </div>
+</div>

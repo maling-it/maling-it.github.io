@@ -1,0 +1,46 @@
+{% assign cdn = 'https://cdn.jsdelivr.net/gh/zxce3/zxce3/' %}
+<!-- JS SCRIPT START -->
+<script src="{{ cdn }}{{ 'js/lazyimg.min.js' }}"></script>
+<script src="{{ 'assets/js/zxc.js' | relative_url}}" type="text/javascript"></script>
+<!-- <script src="{{ '/app.js' | relative_url}}" type="text/javascript"></script> -->
+<script>
+  if (zxce3.getPreferredMode() == "light-mode") { } else if (zxce3.getPreferredMode() == "dark-mode") { } else if (zxce3.getPreferredMode() == "not-set") { }
+</script>
+{% if page.layout == "post" or page.layout == 'learn' %}
+<script src="{{site.url}}{{ 'assets/js/post.js' | relative_url }}"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+<script>
+  anchors.options = {
+    placement: 'right',
+    icon: '#'
+  };
+  anchors.add();
+</script>
+{% endif %}
+{% if page.mermaid %}
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>//mermaid.initialize({ startOnLoad: true, darkMode: true });
+  mermaid.initialize({
+    'startOnload': 'true', 'securityLevel': 'loose', 'theme': 'base'
+  });
+</script>
+{% endif %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<!-- JS SCRIPT END -->
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    var searchRepoInputElem = document.getElementById("search-repo-input");
+    zxce3.keydownHandler = function (event) {
+      event = event || window.event;
+      if (!(document.querySelector("input:focus") || document.querySelector("textarea:focus") || document.querySelector("select:focus"))) {
+        if (event.which == 191) {
+          searchRepoInputElem.focus();
+          event.preventDefault();
+        }
+      }
+    }
+  });
+</script>

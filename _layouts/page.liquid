@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{% assign author = site.data.author[page.title] %}
+{% if author %}
+<div class="row">
+    <div class="col-md-12">
+        <div class="content">
+            <img class="zxa-author mb-15 img-fluid rounded-circle" src="{{ author.img }}">
+
+            <h1 class="hero-header m-0 text-center">
+                <strong class="font-size-24 font-weight-bolder">{{author.fname | capitalize }}</strong>
+            </h1>
+            <p class="hero-content m-0 typing text-center">
+                {{author.bio}}<span class="blink">.</span><span class="blink2">.</span>
+            </p>
+            {% include author-link.liquid %}
+            {% include author-post.liquid %}
+        </div>
+        {% include footer.liquid %}
+    </div>
+</div>
+{% else %}
+<div class="row h-full">
+    <div class="col-md-12">
+        {%- unless page.head == false -%}
+        <div class="card shadow-lg text-center m-0">
+            {% if page.layout == 'category' %}
+            <img class="zxa-author h-100 w-auto mb-15 img-fluid"
+                src="https://raw.githubusercontent.com/Zxce3/Zxce3/main/icons/{{ page.title | replace: 'js', 'javascript' | replace: 'nodejavascript', 'nodejs' | replace: 'html', 'html5' | replace: 'css', 'css3'  | append:'-logo.svg'}}">
+            {% else %}
+            <h1 class="text-center m-0">{{ page.title | replace: 'js', 'javascript' | replace: 'nodejavascript', nodejs
+                }}</h1>
+
+            {% elsif page.layout == "tag" or page.layout == "tool" %}
+            <h1 class="text-center m-0">{{ page.title | capitalize }}</h1>
+            {% endif %}
+            <hr>
+            {% include sharing.liquid %}
+        </div>
+        {%- endunless -%}
+        <div class="border-0">
+            {{ content }}
+        </div>
+        {% include footer.liquid %}
+    </div>
+</div>
+{% endif %}

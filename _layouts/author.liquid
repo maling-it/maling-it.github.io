@@ -1,0 +1,22 @@
+---
+layout: page
+---
+{% assign author = site.data.author[page.title] %}
+{% if author %}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="content">
+            <img class="rocket-author mb-15 img-fluid rounded-circle" src="{{ author.img }}">
+
+            <h1 class="hero-header m-0 text-center">
+                <strong class="font-size-24 font-weight-bolder">{{author.fname | capitalize }}</strong>
+            </h1>
+            <p class="hero-content m-0 typing text-center">
+                {{author.bio}}
+            </p>
+            {% include author-link.liquid %}
+            {% include author-post.liquid %}
+        </div>
+    </div>
+</div>
+{% endif %}

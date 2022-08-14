@@ -1,0 +1,19 @@
+---
+layout: page
+---
+<div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
+
+  {% assign tags = "" | split: "" %}
+  {% for t in site.tags %}
+    {% assign tags = tags | push: t[0] %}
+  {% endfor %}
+
+  {% assign sorted_tags = tags | sort_natural %}
+
+  {% for t in sorted_tags %}
+    <div>
+      <a class="m-5 btn tag" href="{{ site.baseurl }}/tags/{{ t | slugify | url_encode }}/">{{ t | capitalize }}<span class="text-muted badge badge-pill ml-5">{{ site.tags[t].size }}</span></a>
+    </div>
+  {% endfor %}
+
+</div>
