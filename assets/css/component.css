@@ -5,7 +5,6 @@ ul ul {
  margin:0 0 0 0.5rem !important; 
 }
 
-<<<<<<< HEAD
 ul.list-inline {
   padding: 0;
 }
@@ -110,10 +109,8 @@ ul.bullets-list-in li:before {
   .dark-mode.with-custom-css-scrollbars .hljs {
     scrollbar-color: rgba(255, 255, 255, 0.25) #111417;
   }
-=======
 li{
   margin-bottom: 0rem !important;
->>>>>>> master
 }
 .ms{
     margin: -2rem 0rem !important;
