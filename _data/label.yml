@@ -9,8 +9,13 @@ post:
   relate_posts: Further Reading
   share: Share
   button:
+<<<<<<< HEAD
     next: Next 
     previous: Prev
+=======
+    next: »
+    previous: «
+>>>>>>> master
     note: Tentang
 
 search_hint: Search   # text show on search bar

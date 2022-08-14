@@ -12,9 +12,15 @@ function copyCode(elem, containerId) {
     elem.innerHTML = "<i class='bi bi-clipboard-check' aria-hidden='true'></i> Copied!";
 
     // Hide confirmation
+<<<<<<< HEAD
     setTimeout(function () {
         elem.innerHTML = "<i class='bi bi-clipboard' aria-hidden='true'></i>";
     }, 5000);
+=======
+    setTimeout(function() {
+        elem.innerHTML = "<i class='bi bi-clipboard-check' aria-hidden='true'></i>";
+    }, 2000);
+>>>>>>> master
 
     // Built-in function
     zxce3.initStickyAlert({
@@ -37,7 +43,11 @@ for (var i = 0; i < cpbtn.length; i++)
 
 function prints(content) {
     var printContents = document.getElementById(content).innerHTML;
+<<<<<<< HEAD
     w = window.open();
+=======
+    w=window.open();
+>>>>>>> master
     w.document.write(printContents);
     w.print();
     w.close();
