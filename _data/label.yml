@@ -9,8 +9,8 @@ post:
   relate_posts: Further Reading
   share: Share
   button:
-    next: « Post Baru 
-    previous: Post Lama »
+    next: Next 
+    previous: Prev
     note: Tentang
 
 search_hint: Search   # text show on search bar
