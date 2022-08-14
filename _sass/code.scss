@@ -1,7 +1,7 @@
 /*
  * The syntax dark mode styles.
  */
-
+ 
 ol {
   padding-left: 20px;
   list-style-position: outside;
@@ -31,16 +31,16 @@ ol li {
   }
 }
 /* * The syntax dark mode styles. */
- .highlight {
-   overflow: auto;
-}
+//  .highlight {
+//    overflow: auto;
+// }
  .highlight .lineno {
    margin-left: 0.2rem;
    padding-right: 0.5rem;
    min-width: 2.2rem;
    text-align: right;
    color: var(--highlight-lineno-color);
-   border-right: 1px solid var(--highlight-lineno-border-color);
+   border-right: 1px solid;
    -webkit-user-select: none;
    -khtml-user-select: none;
    -moz-user-select: none;
