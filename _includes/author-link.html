@@ -1,9 +1,0 @@
-{% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
-{% assign url = page.url | absolute_url %}
-
-<div class="share text-center mt-15">
-{% for share in site.data.author.[page.title].pfs %}
-  {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
-    <a data-toggle="tooltip" data-placement="top" data-title="{{ share.type }}" target="_blank" rel="noopener" aria-label="{{ share.type }}" class="btn border btn-square  rounded-40" href="{{ link }}"><i class="bi {{ share.icon }}"></i></a>
-{% endfor %}
-</div>
