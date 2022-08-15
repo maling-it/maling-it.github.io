@@ -69,16 +69,16 @@ ol li {
    border: 0;
 }
  .highlighter-rouge {
-   color: #CC3300 !important;
+   // color: #CC3300 !important;
    margin-top: 0.5rem;
    margin-bottom: 1.2em;
   /* Override BS Inline-code style */
    text-decoration: none !important;
 }
-.dark-mode .highlighter-rouge{
-  color: #e6db74 !important;
-}
- code {
+// .dark-mode .highlighter-rouge{
+//   color: #e6db74 !important;
+// }
+code {
    -webkit-hyphens: none;
    -ms-hyphens: none;
    -moz-hyphens: none;
@@ -86,7 +86,7 @@ ol li {
 }
 .dark-mode code.highlighter-rouge {
  color:rgba(255,255,255,.8);
- background-color:transparent;
+ // background-color:transparent;
  border-color:rgba(255,255,255,.2)
 }
 code.highlighter-rouge {
@@ -94,9 +94,10 @@ code.highlighter-rouge {
  padding:.1rem .5rem;
  margin:0 .1rem;
  color:rgba(0,0,0,.85);
- background-color:#dde2e3;
-//  border:1px solid rgba(0, 0, 0, 0.35);
- border-radius:.2rem
+ // background-color:#dde2e3;
+ border:1px solid rgba(0, 0, 0, 0.35);
+  // border: 1px solid rgba(0,0,0,.2);
+ border-radius:.5rem;
 }
 .dark-mode code.highlighter-rouge{
   background-color: #3e3e3e;
