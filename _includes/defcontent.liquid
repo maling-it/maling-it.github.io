@@ -44,7 +44,7 @@
   {% capture winds %}
   <div class="code-container">
     {% include copy-button.liquid %}
-    <div class="highlight shadow-lg">
+    <div class="highlight">
       {% endcapture %}
       {% assign _content = _content
       | replace: '<div class="highlight">', winds
@@ -56,7 +56,7 @@
 {% capture winds %}
   <div class="code-container">
   {% include copy-button.liquid %}
-  <div class="highlight shadow-lg">
+  <div class="highlight">
 {% endcapture %}
   {% assign _content = _content 
   | replace: '<figure class="highlight">', winds
