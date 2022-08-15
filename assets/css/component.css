@@ -89,7 +89,6 @@ ul.bullets-list-in li:before {
   background-color: rgba(0, 0, 0, 0.025);
   border-color: rgba(0, 0, 0, 0.1);
 }
-
 .dark-mode .hljs {
   background-color: #111417;
   border-color: rgba(0, 0, 0, 0.1);
@@ -520,7 +519,7 @@ ol.ui.list.upper-roman li:before {
 }
 
 body{
-  font-family: monospace;
+  font-family: Ubuntu;
 }
 
 .cd-list{
