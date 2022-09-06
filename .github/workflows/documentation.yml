@@ -44,15 +44,14 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           git_user_signingkey: true
           git_commit_gpgsign: true
-      - name: Config user
-        run: |
-            git config --local user.email "memetpea25@gmail.com"
-            git config --local user.name "memet-actions"
 
       - name: Deploy documentation
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: |
+          git config --local user.email "memetpea25@gmail.com"
+          git config --local user.name "memet-actions"
+          git config --global commit.gpgsign true
           mkdocs gh-deploy --force
           mkdocs --version
