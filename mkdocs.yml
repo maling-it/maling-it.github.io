@@ -15,13 +15,14 @@ repo_url: https://github.com/maling-it/maling-it.github.io
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2021 - 2022 MalingIT
+copyright: Copyright &copy; 2022 MalingIT
 
 # Configuration
 theme:
   name: null
   custom_dir: !ENV [THEME_DIR, "theme"]
-
+  icon:
+    repo: fontawesome/brands/github
   # Static files
   static_templates:
     - 404.html
@@ -161,8 +162,15 @@ nav:
   - Pengenalan: index.md
   - Belajar: 
     - Belajar: belajar/index.md
-    - Git: 
-      - Git: belajar/git/index.md
+    - Git V1: 
+      - Git V1: belajar/git/index.md
       - (VSC) Version Control: belajar/git/version-control.md
+      - Sejarah Singkat: belajar/git/sejarah-singkat.md
+      - Dasar-dasar Git: belajar/git/dasar-git.md
+      - Command Line: belajar/git/command-line.md
+      - Instalasi Git: belajar/git/install-git.md
+      - Pengaturan Awal Git: belajar/git/mengatur-git.md
+      - Bantuan: belajar/git/bantuan.md
+      - Kesimpulan: belajar/git/kesimpulan.md
   - Komunitas: komunitas.md
   - Kontak: kontak.md
