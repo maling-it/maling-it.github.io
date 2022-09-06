@@ -5,7 +5,9 @@ title: 1.0 Belajar Git
 
 # Belajar Git
 
-> Panduan belajar git akan mulai dari sini *:)*
+!!! note 
+
+	sumber panduan ini dari https://git-scm.com/book/id/v2/
 
 ## Apa itu git?
 
