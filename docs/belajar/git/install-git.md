@@ -44,42 +44,52 @@ Hal ini paling mudah untuk menginstal Git di Linux menggunakan pilihan paket man
 	```
 	pacman -S git
 	```
+	
 === "openSUSE"
 	```
 	zypper install git
 	```
+
 === "Mageia"
 	```
 	urpmi git
 	```
+
 === "Nix/NixOS"
 	```
 	nix-env -i git
 	```
+
 === "FreeBSD"
 	```
 	pkg install git
 	```
+
 === "Solaris 9/10/11 (OpenCSW)"
 	```
 	pkgutil -i git
 	```
+
 === "Solaris 11 Express"
 	```
 	pkg install developer/versioning/git
 	```
+
 === "OpenBSD"
 	```
 	pkg_add git
 	```
+	
 === "Alpine"
 	```
 	apk add git
 	```
+
 === "Slitaz"
 	```
 	tazpkg add git
 	```
+	
 === "Red Hat Enterprise Linux, Oracle Linux, CentOS, Scientific Linux, dll."
 	RHEL dan turunannya biasanya menggunakan paket versi git. Anda dapat [men-download tarball](https://www.kernel.org/pub/software/scm/git/) dan membangun dari sumber, atau gunakan pihak ke-3 repositori seperti [IUS Proyek Komunitas](https://ius.io/) untuk mendapatkan versi yang lebih baru dari git
 

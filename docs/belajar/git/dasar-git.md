@@ -37,7 +37,7 @@ graph TD
     style E1 stroke-width:2px,stroke-dasharray: 5 5
 ```
 
-Ini adalah perbedaan penting antara Git dan hampir semua VCS lainnya. Hal itu membuat Git mempertimbangkan ulang hampir semua aspek dari `version control` yang kebanyakan sistem lainnya tiru dari generasi sebelumnya. Ini membuat Git lebih seperti sebuah `filesystem` kecil dengan beberapa alat yang sangat hebat terpasang padanya, daripada hanya sebuah VCS sederhana. Kita akan menjelajahi beberapa keuntungan yang Anda dapatkan dengan berpikir tentang data Anda seperti ini ketika kami membahas percabangan Git pada Git Branching
+Ini adalah perbedaan penting antara Git dan hampir semua VCS lainnya. Hal itu membuat Git mempertimbangkan ulang hampir semua aspek dari `version control` yang kebanyakan sistem lainnya tiru dari generasi sebelumnya. Ini membuat Git lebih seperti sebuah `filesystem` kecil dengan beberapa alat yang sangat hebat terpasang padanya, daripada hanya sebuah VCS sederhana. Kita akan menjelajahi beberapa keuntungan yang Anda dapatkan dengan berpikir tentang data Anda seperti ini ketika kami membahas percabangan Git pada Git Branching.
 
 ## Hampir Setiap Pekerjaan Adalah Lokal
 
@@ -67,7 +67,10 @@ Ini membuat menggunakan Git adalah sebuah kebahagiaan, karena kita tahu kita dap
 
 ## Tiga Keadaan
 
-Sekarang, perhatikan. Ini adalah hal utama untuk diingat tentang Git jika Anda ingin sisa perjalanan belajar Anda berjalan dengan lancar. Git memiliki tiga keadaan utama yang berkas-berkas Anda dapat masuk ke dalamnya: `committed`, `modified`, dan `staged`. Committed berarti datanya telah tersimpan dengan aman pada basis data lokal Anda. `Modified` berarti Anda telah mengubah berkas, namun belum di-`commit` ke basis data Anda. `Staged` berarti Anda telah menandai berkas yang telah diubah ke dalam versi sekarang untuk `snapshot commit` Anda selanjutnya.
+Sekarang, perhatikan. Ini adalah hal utama untuk diingat tentang Git jika Anda ingin sisa perjalanan belajar Anda berjalan dengan lancar. Git memiliki tiga keadaan utama yang berkas-berkas Anda dapat masuk ke dalamnya: `committed`, `modified`, dan `staged`. 
+- **Commited** berarti datanya telah tersimpan dengan aman pada basis data lokal Anda. 
+- **Modified** berarti Anda telah mengubah berkas, namun belum di-`commit` ke basis data Anda. 
+- **Staged** berarti Anda telah menandai berkas yang telah diubah ke dalam versi sekarang untuk `snapshot commit` Anda selanjutnya.
 
 Ini memimpin kita kepada tiga bab utama dalam proyek Git: direktori Git, `working directory`, dan `staging area`.
 
@@ -89,7 +92,7 @@ Directory Git adalah di mana Git menyimpan `metadata` dan `basis data` obyek unt
 
 `Working directory` adalah sebuah `checkout` tunggal dari satu versi milik proyek. Berkas-berkas ini ditarik dari basis data yang telah dimampatkan dalam direktori Git dan ditempatkan pada diska untuk Anda gunakan atau sunting.
 
-`Staging area` adalah sebuah berkas, umumnya berada pada direktori Git Anda, yang menyimpan informasi tentang apa yang akan menjadi `commit` Anda selanjutnya. Terkadang disebut juga sebagai index, namun juga sering disebut sebagai `staging area`
+`Staging area` adalah sebuah berkas, umumnya berada pada direktori Git Anda, yang menyimpan informasi tentang apa yang akan menjadi `commit` Anda selanjutnya. Terkadang disebut juga sebagai index, namun juga sering disebut sebagai `staging area`.
 
 Alur kerja dasar Git adalah seperti berikut:
 
