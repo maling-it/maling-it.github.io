@@ -17,4 +17,4 @@ Sebagai contoh, Anda dapat mendapatkan bantuan untuk perintah config dengan menj
 ```
 git help config
 ```
-Perintah-perintah tersebut bagus, karena Anda dapat mendapatkannya di mana saja, bahkan ketika luring. Jika manpage dan buku ini tidak cukup dan Anda memerlukan bantuan secara langsung, Anda dapat mencoba kanal `#git` atau `#github` pada **server Freenode IRC (irc.freenode.net.)** Kanal-kanal tersebut diisi oleh ratusan orang yang sangat memahami tentang Git secara rutin dan seringkali bersedia untuk membantu.
+Perintah-perintah tersebut bagus, karena Anda dapat mendapatkannya di mana saja, bahkan ketika luring. Jika manpage dan buku ini tidak cukup dan Anda memerlukan bantuan secara langsung, Anda dapat mencoba kanal `#git` atau `#github` pada **server Freenode IRC (irc.freenode.net)**. Kanal-kanal tersebut diisi oleh ratusan orang yang sangat memahami tentang Git secara rutin dan seringkali bersedia untuk membantu.

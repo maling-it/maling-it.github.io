@@ -35,7 +35,7 @@ Git merupakan open-source karena  memberikan fleksibilitas untuk memodifikasi ko
 
 **4. Version Control System yang terdistribusi**
 
-Git menggunakan pendekatan yang disebut peer-to-peer yang berbeda dengan metode lain seperti subversion atau SVN yang menggunakan model client-server
+Git menggunakan pendekatan yang disebut peer-to-peer yang berbeda dengan metode lain seperti subversion atau SVN yang menggunakan model client-server.
 
 **5. Non-linear development**
 
