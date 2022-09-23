@@ -120,6 +120,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - tables
   - toc:
       permalink: true
   - pymdownx.arithmatex:
@@ -157,6 +158,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
 # Page tree
 nav:
   - Pengenalan: index.md
@@ -172,5 +175,26 @@ nav:
       - Pengaturan Awal Git: belajar/git/mengatur-git.md
       - Bantuan: belajar/git/bantuan.md
       - Kesimpulan: belajar/git/kesimpulan.md
+    - Shell:
+      - Shell: belajar/shell/index.md
+      - Hello World: belajar/shell/hello-world.md
+      - Variabel: belajar/shell/variabel.md
+      - Variabel Spesial: belajar/shell/variabel-spesial.md
+      - Operator: belajar/shell/operator.md
+      - Operasi Aritmatika: belajar/shell/operasi-aritmatika.md
+      - BC Command: belajar/shell/bc-command.md
+      - Instruksi Logika: belajar/shell/instruksi-logika.md
+      - User Input: belajar/shell/user-input.md
+      - Array: belajar/shell/array.md
+      - Loops: belajar/shell/loops.md
+      - Break: belajar/shell/break.md
+      - Continue: belajar/shell/continue.md
+      - Funtions: belajar/shell/funtions.md
+      - Enviroment Variabels: belajar/shell/enviroment-variable.md
+      - Operasi File: belajar/shell/operasi-file.md
+      - Operasi Folder: belajar/shell/operasi-folder.md
+      - Izin File: belajar/shell/izin-file.md
+      - Shebang: belajar/shell/shebang.md
+
   - Komunitas: komunitas.md
   - Kontak: kontak.md
