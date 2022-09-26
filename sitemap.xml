@@ -2,162 +2,167 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://maling-it.github.io/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/komunitas/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/kontak/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://maling-it.github.io/legal-notice/</loc>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/git/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/git/bantuan/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/git/command-line/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/git/dasar-git/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/git/install-git/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/git/kesimpulan/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/git/mengatur-git/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/git/sejarah-singkat/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/git/version-control/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/array/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/bc-command/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/break/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/continue/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/enviroment-variable/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/funtions/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/hello-world/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/instruksi-logika/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/izin-file/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/loops/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/operasi-aritmatika/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/operasi-file/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/operasi-folder/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/operator/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/shebang/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/user-input/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/variabel-spesial/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maling-it.github.io/belajar/shell/variabel/</loc>
-         <lastmod>2022-09-23</lastmod>
+         <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
