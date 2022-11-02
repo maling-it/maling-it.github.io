@@ -15,7 +15,7 @@ We accept all complaints and suggestions for the future.
 
 Best regards
 
-@Zxce3
+Zxce3
 
 === "Indonesia"
 	Website ini adalah tempat belajar untuk umum dan juga membagikan file yang sepengetahuan kami telah SENGAJA dibuat publik oleh pemegang hak cipta.
@@ -28,4 +28,4 @@ Kami menerima segala keluhan dan saran untuk kedepannya.
 
 Hormat kami
 
-@Zxce3
+Zxce3
