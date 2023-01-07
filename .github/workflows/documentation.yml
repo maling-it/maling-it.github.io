@@ -36,7 +36,6 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install -r requirements.txt
-          echo m-it.my.id > CNAME
           
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v5
