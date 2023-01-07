@@ -36,6 +36,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install -r requirements.txt
+          echo m-it.my.id > CNAME
           
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v5
@@ -50,8 +51,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: |
-          git config --local user.email "memetpea25@gmail.com"
-          git config --local user.name "memet-actions"
+          git config --local user.email "mdswa@zxce3.net"
+          git config --local user.name "Mandakara Sadewa"
           git config --global commit.gpgsign true
           mkdocs gh-deploy --force
           mkdocs --version
